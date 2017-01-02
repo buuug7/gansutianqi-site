@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+    font-family: $base-font-family !important;
+}
+.promo__title {
+    position: relative;
+    &:after{
+        position: absolute;
+        width: 0;
+        height: 0;
+        background: #f7b70b;
+        top: 50%;
+        margin-top: -62px;
+        content: "";
+    }
+}
+
+.promo__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+@media (max-width: 885px) {
+    .promo__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo__title:after {
+        height: 80px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 495px) {
+    .promo__title {
+        font-size: 30px;
+    }
+}
+
+.btn-gstq-v1{
+    color: #fff;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+
+.container-fluid.with-bg--1 {
+    background: url(../images/quote.png) no-repeat 17% 70%;
+    background-size: 310px 190px;
+}
+
+.best-service--1 { background: url(../images/advantage01.jpg) no-repeat scroll 50% 0 / cover;}
+.best-service--2 { background: url(../images/advantage02.jpg) no-repeat scroll 50% 0 / cover;}
+.best-service--3 { background: url(../images/advantage03.jpg) no-repeat scroll 50% 0 / cover;}
+.best-service--4 { background: url(../images/advantage04.jpg) no-repeat scroll 50% 0 / cover;}
+
+
+.project__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contact__cell {
+    padding: 27px 15px;
+    float: left;
+    width: 25%;
+    margin: 0;
+    background: transparent;
+    /*border: 1px solid #f1f1f1;*/
+}
+
+
+.container-fluid.with-bg--1 {
+    background: url(../images/quote.png) no-repeat 17% 70%;
+    background-size: 310px 190px;
+}
+.container-fluid.with-bg--2 {background: url(../images/project-bg.jpg) no-repeat 80% 95%;}
+.container-fluid.with-bg--3 {background: #f9f9f9;}
+.container-fluid.with-bg--4 {background: url(../img-temp/17.jpg) no-repeat 50% 80%;}
+.container-fluid.with-bg--5 {background: url(../images/46.jpg) no-repeat 80% 80%;}
+.container-fluid.with-bg--6 {background: url(../images/47.jpg) no-repeat 80%;}
