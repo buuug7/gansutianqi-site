@@ -25,18 +25,40 @@ $(document).ready(function () {
         autoplay: true,
         loop: true,
         responsive: {
-            0:{
+            0: {
                 items: 1
             },
-            768:{
+            768: {
                 items: 2
             },
-            992:{
+            992: {
                 items: 3
             },
-            1200:{
-                items: 4
+            1200: {
+                items: 5
             }
+        },
+    });
+
+    $('.owl2-carousel-v2').owlCarousel({
+        items: 6,
+        margin: 30,
+        loop: true,
+        nav: false,
+        autoplay: true,
+        responsive: {
+            300: {
+                items: 2
+            },
+            768: {
+                items: 4
+            },
+            992: {
+                items: 4
+            },
+            1200: {
+                items: 6
+            },
         },
     });
 
@@ -46,10 +68,10 @@ $(document).ready(function () {
         items: 1,
         responsiveClass: true,
         nav: true,
-        navText: ["<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-right'></i>"],
+        navText: ["<i class='fa fa-arrow-left'></i>", "<i class='fa fa-arrow-right'></i>"],
         navContainerClass: 'owl-buttons',
         responsive: {
-            1200:{
+            1200: {
                 items: 1,
             }
         }

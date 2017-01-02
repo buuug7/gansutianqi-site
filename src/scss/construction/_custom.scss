@@ -3,6 +3,25 @@
 body{
     font-family: $base-font-family !important;
 }
+.width-img-100{
+  width: 100%;
+}
+
+.color-overlay {
+  background: #328DF9;
+}
+
+.construction-header.one-page-header .navbar-nav > li > a,
+.construction-header.one-page-header .navbar-nav > li > a:focus {
+  padding: 8px 5px;
+  margin: 0 3px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+}
+
+
 .promo__title {
     position: relative;
     &:after{
@@ -71,6 +90,10 @@ body{
     font-weight: bold;
 }
 
+.project__img {
+  box-shadow: 2px 2px 2px #328DF9;
+}
+
 .contact__cell {
     padding: 27px 15px;
     float: left;
@@ -79,6 +102,28 @@ body{
     background: transparent;
     /*border: 1px solid #f1f1f1;*/
 }
+
+.icon-custom.testi__fa {
+  background: #328DF9;
+}
+
+.contact-list__icon {
+  font-size: 50px;
+  color: #328DF9;
+}
+
+.heading-v14__block-name {
+  color: #328DF9;
+}
+
+.heading-v14:after {
+  background: #328DF9;
+}
+
+.heading-v14-1:after{
+  background: #fff;
+}
+
 
 
 .container-fluid.with-bg--1 {
@@ -90,3 +135,55 @@ body{
 .container-fluid.with-bg--4 {background: url(../img-temp/17.jpg) no-repeat 50% 80%;}
 .container-fluid.with-bg--5 {background: url(../images/46.jpg) no-repeat 80% 80%;}
 .container-fluid.with-bg--6 {background: url(../images/47.jpg) no-repeat 80%;}
+
+
+
+.testi__company {
+  color: #328DF9;
+  font-size: 15px;
+  padding-top:10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.testi__img {
+  width: 300px !important;
+  height: 180px;
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  margin-left: -150px;
+  border: 10px solid #f9f9f9;
+}
+
+.controls-v3.owl-theme .owl-controls .owl-buttons div {
+  padding: 15px 19px;
+  width: 49px;
+  height: 49px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 13px;
+  cursor: pointer;
+  /*border: 3px solid #111;*/
+}
+
+.controls-v3.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0%;
+}
+
+
+.career__text {
+  color: #fff;
+  opacity: 1;
+  font-size: 18px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+

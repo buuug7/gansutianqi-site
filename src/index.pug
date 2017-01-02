@@ -5,202 +5,191 @@ html.ie9(lang='en')
 <!--[if !IE 9]>
 html(lang='en')
 <![endif]-->
-    include _head
-    body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-spy="scroll",data-target=".one-page-header")
-        main.wrapper
-            // navbar
-            include _navbar
+include _head
+body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-spy="scroll",data-target=".one-page-header")
+	main.wrapper
+		// navbar
+		include _navbar
 
-            // promo block
-            section.promo-section#intro
-                div(class='container-fluid no-column-space')
-                    div.row
-                        div.col-sm-6
-                            div(class='fullscreen-static-image1 fullheight promo-block')
-                                div(class='promo-block__content g-pr-50')
-                                    div(class='text-right pull-right')
-                                        span(class='promo__pretitle g-dp-block g-mb-20') 企业政府信息化
-                                        h1(class='promo__title promo__title--right-bar font-main g-mb-30') 专注于信息传播，网络简化、灵活接入、链路加速、数据加密等方面持续创新
-                                        a(href='#',class='btn-u btn-gstq-v1 trim')
-                                            span 查看更多
-                                            i(class='g-ml-10 fa btn-u__fa fa-arrow-left')
+		// promo block
+		section.promo-section#intro
+			div(class='container-fluid no-column-space')
+				div.row
+					div.col-sm-6
+						div(class='fullscreen-static-image1 fullheight promo-block')
+							div(class='promo-block__content g-pr-50')
+								div(class='text-right pull-right')
+									span(class='promo__pretitle g-dp-block g-mb-20') 企业政府信息化
+									h1(class='promo__title promo__title--right-bar font-main g-mb-30') 专注于信息传播，网络简化、灵活接入、链路加速、数据加密等方面持续创新
+									a(href='#',class='btn-u btn-gstq-v1 trim')
+										span 查看更多
 
-                        div.col-sm-6
-                            div(class='fullscreen-static-image2 fullheight promo-block')
-                                div(class='promo-block__content g-pl-50')
-                                    div(class='text-left pull-left')
-                                        span(class='promo__pretitle g-dp-block g-mb-20') 农村电子商务
-                                        h1(class='promo__title promo__title--left-bar font-main g-mb-30') 拓展农村信息服务业务，使之兼而成为遍布县、镇、村的三农信息服务站
-                                        a(href='#',class='btn-u btn-gstq-v1 trim')
-                                            i(class='g-mr-10 fa btn-u__fa fa-arrow-right')
-                                            span 了解详情
+					div.col-sm-6
+						div(class='fullscreen-static-image2 fullheight promo-block')
+							div(class='promo-block__content g-pl-50')
+								div(class='text-left pull-left')
+									span(class='promo__pretitle g-dp-block g-mb-20') 农村电子商务
+									h1(class='promo__title promo__title--left-bar font-main g-mb-30') 拓展农村信息服务业务，使之兼而成为遍布县、镇、村的三农信息服务站
+									a(href='#',class='btn-u btn-gstq-v1 trim')
+										span 了解详情
 
 
 
-            // latest news
-            section#news
-                div(class='container-fluid no-padding with-bg with-bg--1')
-                    div(class='color-overlay')
-                    div.container
-                        div(class='row g-pt-20 g-pb-30')
-                            div(class='col-md-8 col-sm-12 col-md-offset-4')
-                                div(class='call-action-v1 call-action-v1-boxed')
-                                    div(class='call-action-v1-box')
-                                        div(class='call-action-v1-in')
-                                            h3(class='cta__title font-main') News
-                                            p(class='cta__text') 恭喜定西生活网上线,网站旨在定西市以及周边的所有用户提供,方便、快捷、有效多样化，全面系统的优质服务,衣食住行、娱乐休闲、信息发布、在线支付、我们期待您的访问和反馈
-                                        div(class='call-action-v1-in inner-btn page-scroll')
-                                            a(href='#!',class='btn-u btn-gstq-v1 trim')
-                                                span 阅读更多
+		// latest news
+		section#news
+			div(class='container-fluid no-padding with-bg')
+				div(class='color-overlay')
+				div.container
+					div(class='row g-pt-20 g-pb-30')
+						div(class='col-md-12 col-sm-12 ')
+							div(class='call-action-v1 call-action-v1-boxed')
+								div(class='call-action-v1-box')
+									div(class='call-action-v1-in')
+										h3(class='cta__title font-main') News
+										p(class='cta__text') 恭喜定西生活网上线,网站旨在定西市以及周边的所有用户提供,方便、快捷、有效多样化，全面系统的优质服务,衣食住行、娱乐休闲、信息发布、在线支付、我们期待您的访问和反馈
+									div(class='call-action-v1-in inner-btn page-scroll')
+										a(href='#!',class='btn-u btn-gstq-v1 trim')
+											span 阅读更多
 
-            // solutions
-            section#solutions
-                div(class='container-fluid with-bg--3')
-                    div(class='content-lg')
-                        div(class='heading-v14 text-center g-mb-40')
-                            span(class='heading-v14__block-name g-dp-block g-mb-20') SOLUTIONS
-                            h1(class='heading-v14__title font-main g-mb-60') 解决方案
-                            p(class='heading-v14__text') Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        div(class='owl2-carousel-v1 owl-theme')
-                            div(class='item text-center g-pt-60')
-                                div.testi
-                                    img(class='testi__img rounded-x',src='',alt='')
-                                    span(class='testi__name g-dp-block') 企业政务信息化
-                                    span(class='testi__company g-dp-block g-mb-30') Anderson industry
-                                    i(class='icon-custom testi__fa icon-sm rounded-x fa fa-quote-left')
-                                    p(class='testi__text') 帮助企业政府部门建立安全、可靠、高效的门户网站以及公众信息平台网络。我们专注于信息传播，网络简化、灵活接入、链路加速、数据加密等方面持续创新。
-                            div(class='item text-center g-pt-60')
-                                div.testi
-                                    img(class='testi__img rounded-x',src='',alt='')
-                                    span(class='testi__name g-dp-block') 页游娱乐资讯
-                                    span(class='testi__company g-dp-block g-mb-30') Anderson industry
-                                    i(class='icon-custom testi__fa icon-sm rounded-x fa fa-quote-left')
-                                    p(class='testi__text') 4039页游平台以高水准的技术团队为核心，追踪最新页游资讯，打造最好的页游攻略，提供最完善的用户体验，立志成为游戏玩家首要选择的游戏资讯网站。
-                            div(class='item text-center g-pt-60')
-                                div.testi
-                                    img(class='testi__img rounded-x',src='',alt='')
-                                    span(class='testi__name g-dp-block') 农村电子商务
-                                    span(class='testi__company g-dp-block g-mb-30') Anderson industry
-                                    i(class='icon-custom testi__fa icon-sm rounded-x fa fa-quote-left')
-                                    p(class='testi__text') 电子商务的发展不断蚕食实体店市场份额，传统百货商场经营受电商冲击猛烈，万亿级别的农村市场，我们致力于为你提供最全面的农村电子商务解决方案。
-                            div(class='item text-center g-pt-60')
-                                div.testi
-                                    img(class='testi__img rounded-x',src='',alt='')
-                                    span(class='testi__name g-dp-block') 定西生活服务
-                                    span(class='testi__company g-dp-block g-mb-30') Anderson industry
-                                    i(class='icon-custom testi__fa icon-sm rounded-x fa fa-quote-left')
-                                    p(class='testi__text') 为定西市以及周边的所有用户提供,方便、快捷、有效多样化，全面系统的优质服务,衣食住行、娱乐休闲、信息发布、在线支付、我们期待您的访问和反馈
+		// solutions
+		section#solutions
+			div(class='container-fluid with-bg--3')
+				div(class='content-lg')
+					div(class='heading-v14 text-center g-mb-40')
+						span(class='heading-v14__block-name g-dp-block g-mb-20') SOLUTIONS
+						h1(class='heading-v14__title font-main g-mb-60') 解决方案
+						p(class='heading-v14__text') 专业行业电商经验，我们懂您的真正的需求
+					div(class='owl2-carousel-v1 owl-theme')
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution2.jpg',alt='')
+								span(class='testi__name g-dp-block') 企业政务信息化
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') 帮助企业政府部门建立安全、可靠、高效的门户网站以及公众信息平台网络。我们专注于信息传播，网络简化、灵活接入、链路加速、数据加密等方面持续创新。
 
-                            div(class='item text-center g-pt-60')
-                                div.testi
-                                    img(class='testi__img rounded-x',src='',alt='')
-                                    span(class='testi__name g-dp-block') Simone Gomez
-                                    span(class='testi__company g-dp-block g-mb-30') Anderson industry
-                                    i(class='icon-custom testi__fa icon-sm rounded-x fa fa-quote-left')
-                                    p(class='testi__text') Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution1.jpg',alt='')
+								span(class='testi__name g-dp-block') 农村电子商务
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') 支持”自营+商家入驻模式“来迅速扩充工业和农产品品类，完美打通当下农村/城市信息壁垒痛点，是您开启农村电商蓝海市场的不二之选...
 
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution3.jpg',alt='')
+								span(class='testi__name g-dp-block') O2O营销服务解决方案
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') 为商家提供基于支付宝、微信等平台开发、运营、推广、数据分析等一系列O2O解决方案服务，加速企业O2O战略布局…
 
-            // advantage
-            section#advantage
-                div(class='container-fluid with-bg with-bg--2 no-padding')
-                    div.color-overlay
-                    div(class='container content-lg')
-                        div(class='heading-v14 heading-v14--diff text-center g-mb-100')
-                            span(class='heading-v14__block-name g-dp-block g-mb-20') preponderance
-                            h1(class='heading-v14__title font-main') 我们的优势
-                        div.row
-                            div(class='col-md-4 g-sm-mb-50')
-                                h2(class='project__title font-main g-mb-20 text-center') 优质服务
-                                img(class='project__img img-responsive g-mb-20',src='images/advantage1.jpg')
-                                p(class='project__text g-mb-40') 精英客服团队，凭借优质的服务、创新进取的精神、倍受客户青睐
-                            div(class='col-md-4 g-sm-mb-50')
-                                h2(class='project__title font-main g-mb-20 text-center') 专业团队
-                                img(class='project__img img-responsive g-mb-20',src='images/advantage2.jpg')
-                                p(class='project__text g-mb-40') 聚焦技术创新提升用户体验，是业内丰有实力和经验的专业技术团队
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution6.jpg',alt='')
+								span(class='testi__name g-dp-block') 深度连接线上线下解决方案
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') 对于传统门店而言，实现O2O资源整合，深化线上线下间的协同关系至关重要。HiPOS作为移动云商城多门店O2O解决方案的核心部分......
 
-                            div(class='col-md-4 g-sm-mb-50')
-                                h2(class='project__title font-main g-mb-20 text-center') 一流产品
-                                img(class='project__img img-responsive g-mb-20',src='images/advantage3.jpg')
-                                p(class='project__text g-mb-40') 全线成熟的电商产品，构建一站式电商解决方案，降低客户成本
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution5.jpg',alt='')
+								span(class='testi__name g-dp-block') O2O门店管理解决方案
+								span(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') O2O门店管理以门店APP为依托，并集订单核销、快速收银、商品管理、精准对账等诸多功能，让商家能够随时随地简单高效管理门店……
+
+						div(class='item text-center g-pt-60')
+							div.testi
+								img(class='testi__img',src='images/solution4.jpg',alt='')
+								span(class='testi__name g-dp-block') 娱乐游戏资讯
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								p(class='testi__text') 4039页游平台以高水准的技术团队为核心，追踪最新页游资讯，打造最好的页游攻略，提供最完善的用户体验，立志成为游戏玩家首要选择的游戏资讯网站。
 
 
-            // work with us
-            section#work
-                div(class='container g-pt-80')
-                    div(class='heading-v14 text-center g-mb-60')
-                        span(class='heading-v14__block-name g-dp-block g-mb-20') Career
-                        h1(class='heading-v14__title font-main g-mb-60') Work with us
-                        p(class='heading-v14__text') Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+		// advantage
+		section#advantage
+			div(class='container-fluid with-bg with-bg--2 no-padding')
+				div.color-overlay
+				div(class='container content-lg')
+					div(class='heading-v14 heading-v14-1 heading-v14--diff text-center g-mb-100')
+						span(class='heading-v14__block-name g-dp-block g-mb-20') preponderance
+						h1(class='heading-v14__title font-main') 我们的优势
+					div.row
+						div(class='col-md-3 col-sm-6 g-sm-mb-50')
+							h2(class='project__title font-main g-mb-20 text-center') 优质服务
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage1.jpg')
+							p(class='project__text g-mb-40') 精英客服团队，凭借优质的服务、创新进取的精神、倍受客户青睐
+						div(class='col-md-3 col-sm-6 g-sm-mb-50')
+							h2(class='project__title font-main g-mb-20 text-center') 专业团队
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage2.jpg')
+							p(class='project__text g-mb-40') 聚焦技术创新提升用户体验，是业内丰有实力和经验的专业技术团队
 
-            // purpose
-            section#purpose
-                div(class='container-fluid with-bg with-bg--5 no-padding')
-                    div.color-overlay
-                    div(class='container content-lg g-pt-90')
-                        div(class='owl2-carousel-v3 owl-theme controls-v3')
-                            div(class='item text-center')
-                                h2(class='career__title font-main g-mb-40') 企业宗旨
-                                p(class='career__text g-mb-40') 我们拒绝夸张不贴实际的营销,现在90%的互联网IT公司都是骗子,我们不甘同流合污
-                            div(class='item text-center')
-                                h2(class='career__title font-main g-mb-40') 企业宗旨
-                                p(class='career__text g-mb-40') 我们拒绝花哨华而不实的网站,网站应该以内容为核心,以实用为基础
+						div(class='col-md-3 col-sm-6 g-sm-mb-50')
+							h2(class='project__title font-main g-mb-20 text-center') 一流产品
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage4.jpg')
+							p(class='project__text g-mb-40') 全线成熟的电商产品，构建一站式电商解决方案，降低客户成本
+						div(class='col-md-3 col-sm-6 g-sm-mb-50')
+							h2(class='project__title font-main g-mb-20 text-center') 完美售后服务
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage3.jpg')
+							p(class='project__text g-mb-40') 全线成熟的电商产品，构建一站式电商解决方案，降低客户成本
 
 
+		// our partner
+		section#partner
+			div(class='container-fluid no-padding with-bg with-bg--4')
+				div.color-overlay2
+				div(class='container content-md')
+					div(class='heading-v14 text-center g-mb-60')
+						span(class='heading-v14__block-name g-dp-block g-mb-20') PARTNER
+						h1(class='heading-v14__title font-main g-mb-60') 合作伙伴
+						p(class='heading-v14__text') 与国内外知名公司和团队合作，为您带来优质的价值，为您的电商之路保驾护航
+					div(class='owl2-carousel-v2 owl-theme')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
 
+		// purpose
+		section#purpose
+			div(class='container-fluid with-bg with-bg--5 no-padding')
+				div.color-overlay
+				div(class='container content-lg g-pt-90')
+					div(class='owl2-carousel-v3 owl-theme controls-v3')
+						div(class='item text-center')
+							p(class='career__text g-mb-40') 为包括我们的股东、顾客、员工，乃至商业伙伴在内的所有人提供创造和实现他们美好梦想的机会
+						div(class='item text-center')
+							p(class='career__text g-mb-40') 以自有技术开发、销售和增值服务为核心，面向行业应用的软件和服务提供商，努力以先进的技术、专业的服务，最大程度地满足客户网站时代业务发展需要
+		// contact
+		section#contact
+			div(class='container content-lg')
+				div(class='heading-v14 text-center g-mb-60')
+					span(class='heading-v14__block-name g-dp-block g-mb-20') CONTACT US
+					h1(class='heading-v14__title font-main g-mb-60') 联系我们
+				div.row
+					div.col-md-12
+						ul(class='list-unstyled contact__table')
+							li(class='contact__cell contact__cell--1 text-center')
+								ul(class='list-unstyled')
+									li: span(class='icon-anchor contact-list__icon g-dp-block g-mb-30')
+									li(class='contact-list__item-1') 地址
+									li(class='contact-list__item-2') 甘肃省兰州市城关区
+							li(class='contact__cell contact__cell--2 text-center')
+								ul(class='list-unstyled')
+									li: span(class='icon-call-in contact-list__icon g-dp-block g-mb-30')
+									li(class='contact-list__item-1') 电话号码
+									li(class='contact-list__item-2') 18309467501
+							li(class='contact__cell contact__cell--2 text-center')
+								ul(class='list-unstyled')
+									li: span(class='icon-envelope-open contact-list__icon g-dp-block g-mb-30')
+									li(class='contact-list__item-1') 电子邮件
+									li(class='contact-list__item-2') gansutq@126.com
+							li(class='contact__cell contact__cell--2 text-center')
+								ul(class='list-unstyled')
+									li: span(class='icon-earphones-alt contact-list__icon g-dp-block g-mb-30')
+									li(class='contact-list__item-1') 客服电话
+									li(class='contact-list__item-2') +402 5897 660
 
-
-            // contact
-            section#contact
-                div(class='container content-lg')
-                    div(class='heading-v14 text-center g-mb-60')
-                        span(class='heading-v14__block-name g-dp-block g-mb-20') CONTACT US
-                        h1(class='heading-v14__title font-main g-mb-60') 联系我们
-                    div.row
-                        div.col-md-12
-                            ul(class='list-unstyled contact__table')
-                                li(class='contact__cell contact__cell--1 text-center')
-                                    ul(class='list-unstyled')
-                                        li: span(class='icon-anchor contact-list__icon g-dp-block g-mb-30')
-                                        li(class='contact-list__item-1') 地址
-                                        li(class='contact-list__item-2') 甘肃省兰州市城关区
-                                li(class='contact__cell contact__cell--2 text-center')
-                                    ul(class='list-unstyled')
-                                        li: span(class='icon-call-in contact-list__icon g-dp-block g-mb-30')
-                                        li(class='contact-list__item-1') 电话号码
-                                        li(class='contact-list__item-2') 18309467501
-                                li(class='contact__cell contact__cell--2 text-center')
-                                    ul(class='list-unstyled')
-                                        li: span(class='icon-envelope-open contact-list__icon g-dp-block g-mb-30')
-                                        li(class='contact-list__item-1') 电子邮件
-                                        li(class='contact-list__item-2') gansutq@126.com
-                                li(class='contact__cell contact__cell--2 text-center')
-                                    ul(class='list-unstyled')
-                                        li: span(class='icon-earphones-alt contact-list__icon g-dp-block g-mb-30')
-                                        li(class='contact-list__item-1') 客服电话
-                                        li(class='contact-list__item-2') +402 5897 660
-
-            // footer
-            footer.footer
-                div(class='container-fluid no-padding with-bg with-bg--6')
-                    div.color-overlay
-                    div(class='container content-md')
-                        div.row
-                            div(class='col-md-5 text-left text-sm-center g-sm-mb-20 g-pt-30')
-                                p(class='footer__text')
-                                    span &copy; 2016 All right reserved.
-                                    strong 甘肃天奇
-                                    span Development by
-                                    strong Buuug7
-                            div(class='col-md-2 text-center g-sm-mb-20 g-pt-20')
-                                p(class='footer__support') Support 24/7
-                                    br
-                                    span(class='footer__support--phone') +458 669 221
-                            div(class='col-md-5 text-right text-sm-center g-pt-25')
-                                ul(class='list-inline footer__list')
-                                    li: a(href='#!'): i(class='icon-custom footer__fa icon-sm fa fa-twitter')
-                                    li: a(href='#!'): i(class='icon-custom footer__fa icon-sm fa fa-pinterest-p')
-                                    li: a(href='#!'): i(class='icon-custom footer__fa icon-sm fa fa-facebook')
-                                    li: a(href='#!'): i(class='icon-custom footer__fa icon-sm fa fa-instagram')
-                                    li: a(href='#!'): i(class='icon-custom footer__fa icon-sm fa fa-linkedin')
-        include _scripts
+		// footer
+		include _footer
+	include _scripts
 
