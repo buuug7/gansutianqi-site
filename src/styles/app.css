@@ -1410,6 +1410,9 @@ body {
 .color-overlay {
   background: #328DF9; }
 
+.color-overlay2 {
+  background: #f7b70b; }
+
 .construction-header.one-page-header .navbar-nav > li > a,
 .construction-header.one-page-header .navbar-nav > li > a:focus {
   padding: 8px 5px;
@@ -1478,8 +1481,8 @@ body {
 .project__title {
   color: #fff;
   text-transform: uppercase;
-  font-size: 2em;
-  font-weight: bold; }
+  font-size: 1.5em;
+  font-weight: normal; }
 
 .project__img {
   box-shadow: 2px 2px 2px #328DF9; }
@@ -1535,12 +1538,12 @@ body {
   font-weight: bold; }
 
 .testi__img {
-  width: 300px !important;
-  height: 180px;
+  width: 250px !important;
+  height: 140px;
   position: absolute;
-  top: -90px;
+  top: -70px;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -125px;
   border: 10px solid #f9f9f9; }
 
 .controls-v3.owl-theme .owl-controls .owl-buttons div {
@@ -1565,3 +1568,104 @@ body {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto; }
+
+.promo-section {
+  margin-top: 0; }
+
+@media (max-width: 992px) {
+  .promo-section {
+    margin-top: 75px; } }
+
+@media (max-width: 768px) {
+  .promo-section {
+    margin-top: 75px;
+    overflow-y: auto; } }
+
+@media (max-width: 600px) {
+  .promo-section {
+    margin-top: 75px; } }
+
+/* Real Estate Font Styles */
+.ms-layer {
+  text-align: center;
+  max-width: 550px;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.ms-thumb-list.ms-dir-v {
+  /* top: 50% !important; */
+  /* left: 115px !important; */
+  /* height: 380px !important; */
+  margin: 0;
+  overflow: hidden; }
+
+.ms-promo-real_estate-price {
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2; }
+
+.ms-promo-real_estate-price em {
+  position: relative;
+  top: -5px;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal; }
+
+.ms-promo-real_estate-place {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.ms-promo-real_estate-description {
+  /* max-width: 550px; */
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7); }
+
+@media (max-width: 1024px) {
+  .ms-promo-real_estate-description {
+    font-size: 14px !important;
+    line-height: 1.4 !important; } }
+
+@media (max-width: 900px) {
+  .ms-promo-real_estate-price {
+    font-size: 18px !important;
+    line-height: 1.5 !important; }
+  .ms-promo-real_estate-price em {
+    top: 0; }
+  .ms-promo-real_estate-place {
+    font-size: 32px; } }
+
+@media (max-width: 800px) {
+  .ms-promo-real_estate-price,
+  .ms-promo-real_estate-place,
+  .ms-promo-real_estate-description {
+    left: 20px !important; } }
+
+@media (max-width: 767px) {
+  .ms-thumb-frame {
+    width: 140px !important;
+    height: 90px !important;
+    margin-bottom: 0 !important; } }
+
+@media (max-width: 650px) {
+  .ms-thumb-frame,
+  .ms-slide .btn-u {
+    display: none; }
+  .ms-promo-real_estate-place {
+    font-size: 24px; } }
+
+@media (max-width: 550px) {
+  .ms-promo-real_estate-price {
+    font-size: 14px !important; }
+  .ms-promo-real_estate-price.g-mb-25 {
+    margin-bottom: 15px !important; }
+  .ms-promo-real_estate-place {
+    font-size: 20px; }
+  .ms-promo-real_estate-place.g-mb-35 {
+    margin-bottom: 0 !important; } }

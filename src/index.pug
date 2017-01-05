@@ -13,34 +13,38 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
 
 		// promo block
 		section.promo-section#intro
-			div(class='container-fluid no-column-space')
-				div.row
-					div.col-sm-6
-						div(class='fullscreen-static-image1 fullheight promo-block')
-							div(class='promo-block__content g-pr-50')
-								div(class='text-right pull-right')
-									span(class='promo__pretitle g-dp-block g-mb-20') 企业政府信息化
-									h1(class='promo__title promo__title--right-bar font-main g-mb-30') 专注于信息传播，网络简化、灵活接入、链路加速、数据加密等方面持续创新
-									a(href='#',class='btn-u btn-gstq-v1 trim')
-										span 查看更多
-
-					div.col-sm-6
-						div(class='fullscreen-static-image2 fullheight promo-block')
-							div(class='promo-block__content g-pl-50')
-								div(class='text-left pull-left')
-									span(class='promo__pretitle g-dp-block g-mb-20') 农村电子商务
-									h1(class='promo__title promo__title--left-bar font-main g-mb-30') 拓展农村信息服务业务，使之兼而成为遍布县、镇、村的三农信息服务站
-									a(href='#',class='btn-u btn-gstq-v1 trim')
-										span 了解详情
-
-
+			div(class='master-slider ms-promo-2',id='masterslider-promo')
+				div(class='ms-slide')
+					img(src='assets/plugins/master-slider/masterslider/style/blank.gif',data-src='images/slide/1.jpg')
+					div(class='ms-layer',data-origin='ml',data-type="text",data-effect="fade()",data-ease="easeOutExpo",data-duration="2200")
+						span(class='ms-promo-real_estate-price g-mb-25') 专注于信息传播，网络简化、灵活接入、链路加速、数据加密
+						div(class='ms-promo-real_estate-place g-mb-35') 企业政务信息化
+						div(class='ms-promo-real_estate-description')
+							a(href='#!',class='btn-u btn-u-lg  btn-u-upper btn-gstq-v1') 查看详情
+					img(class='ms-thumb',src='images/slide/1-s.jpg')
+				div(class='ms-slide')
+					img(src='assets/plugins/master-slider/masterslider/style/blank.gif',data-src='images/slide/2.jpg')
+					div(class='ms-layer',data-origin='ml',data-type="text",data-effect="fade()",data-ease="easeOutExpo",data-duration="2200")
+						span(class='ms-promo-real_estate-price g-mb-25') 追踪最新页游资讯，打造最好的页游攻略，提供最完善的用户体验
+						div(class='ms-promo-real_estate-place g-mb-35') 4039页游平台
+						div(class='ms-promo-real_estate-description')
+							a(href='#!',class='btn-u btn-u-lg  btn-u-upper btn-gstq-v1') 查看详情
+					img(class='ms-thumb',src='images/slide/2-s.jpg')
+				div(class='ms-slide')
+					img(src='assets/plugins/master-slider/masterslider/style/blank.gif',data-src='images/slide/3.jpg')
+					div(class='ms-layer',data-origin='ml',data-type="text",data-effect="fade()",data-ease="easeOutExpo",data-duration="2200")
+						span(class='ms-promo-real_estate-price g-mb-25') 亿万级别的大市场，您准备好了吗？
+						div(class='ms-promo-real_estate-place g-mb-35') 农村电子商务
+						div(class='ms-promo-real_estate-description')
+							a(href='#!',class='btn-u btn-u-lg  btn-u-upper btn-gstq-v1') 查看详情
+					img(class='ms-thumb',src='images/slide/3-s.jpg')
 
 		// latest news
 		section#news
 			div(class='container-fluid no-padding with-bg')
-				div(class='color-overlay')
+				div(class='color-overlay ')
 				div.container
-					div(class='row g-pt-20 g-pb-30')
+					div(class='row')
 						div(class='col-md-12 col-sm-12 ')
 							div(class='call-action-v1 call-action-v1-boxed')
 								div(class='call-action-v1-box')
@@ -92,7 +96,7 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
 							div.testi
 								img(class='testi__img',src='images/solution5.jpg',alt='')
 								span(class='testi__name g-dp-block') O2O门店管理解决方案
-								span(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
+								a(class='testi__company g-dp-block g-mb-30',href='#!') 查看详情
 								p(class='testi__text') O2O门店管理以门店APP为依托，并集订单核销、快速收银、商品管理、精准对账等诸多功能，让商家能够随时随地简单高效管理门店……
 
 						div(class='item text-center g-pt-60')
@@ -112,23 +116,29 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
 						span(class='heading-v14__block-name g-dp-block g-mb-20') preponderance
 						h1(class='heading-v14__title font-main') 我们的优势
 					div.row
-						div(class='col-md-3 col-sm-6 g-sm-mb-50')
-							h2(class='project__title font-main g-mb-20 text-center') 优质服务
-							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage1.jpg')
-							p(class='project__text g-mb-40') 精英客服团队，凭借优质的服务、创新进取的精神、倍受客户青睐
-						div(class='col-md-3 col-sm-6 g-sm-mb-50')
-							h2(class='project__title font-main g-mb-20 text-center') 专业团队
-							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage2.jpg')
-							p(class='project__text g-mb-40') 聚焦技术创新提升用户体验，是业内丰有实力和经验的专业技术团队
+						div(class='col-md-2 col-sm-4 col-xs-6 g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y01.png')
+							h2(class='project__title font-main g-mb-20 text-center') 完善服务，极致体验
 
-						div(class='col-md-3 col-sm-6 g-sm-mb-50')
-							h2(class='project__title font-main g-mb-20 text-center') 一流产品
-							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage4.jpg')
-							p(class='project__text g-mb-40') 全线成熟的电商产品，构建一站式电商解决方案，降低客户成本
-						div(class='col-md-3 col-sm-6 g-sm-mb-50')
-							h2(class='project__title font-main g-mb-20 text-center') 完美售后服务
-							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/advantage3.jpg')
-							p(class='project__text g-mb-40') 全线成熟的电商产品，构建一站式电商解决方案，降低客户成本
+						div(class='col-md-2 col-sm-4 col-xs-6 g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y02.png')
+							h2(class='project__title font-main g-mb-20 text-center') 专业团队，用心创造
+
+						div(class='col-md-2 col-sm-4 col-xs-6 g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y03.png')
+							h2(class='project__title font-main g-mb-20 text-center') 品质卓越，产品一流
+
+						div(class='col-md-2 col-sm-4 col-xs-6  g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y04.png')
+							h2(class='project__title font-main g-mb-20 text-center') 贴心服务，完美售后
+
+						div(class='col-md-2 col-sm-4 col-xs-6  g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y05.png')
+							h2(class='project__title font-main g-mb-20 text-center') 安全高效
+
+						div(class='col-md-2 col-sm-4 col-xs-6  g-sm-mb-50')
+							img(class='project__img img-responsive g-mb-20 width-img-100',src='images/y06.png')
+							h2(class='project__title font-main g-mb-20 text-center') 90万+客户的选择
 
 
 		// our partner
@@ -141,13 +151,12 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
 						h1(class='heading-v14__title font-main g-mb-60') 合作伙伴
 						p(class='heading-v14__text') 与国内外知名公司和团队合作，为您带来优质的价值，为您的电商之路保驾护航
 					div(class='owl2-carousel-v2 owl-theme')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
-						div.item: a(href='#!'): img(src='images/client1.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/aliyun.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/qiniu.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/tengxunyun.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/aws.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/zhifubao.png',class='client__img',alt='')
+						div.item: a(href='#!'): img(src='images/partner/microsoft.png',class='client__img',alt='')
 
 		// purpose
 		section#purpose

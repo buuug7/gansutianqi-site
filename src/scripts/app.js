@@ -3,21 +3,6 @@
  */
 
 $(document).ready(function () {
-    $(".fullscreen-static-image1").backstretch(
-        ["images/promo1.jpg"],
-        {
-            duration: 10000,
-            fade: 1500
-        }
-    );
-
-    $(".fullscreen-static-image2").backstretch(
-        ["images/promo2.jpg"],
-        {
-            duration: 10000,
-            fade: 1500
-        }
-    );
 
     $('.owl2-carousel-v1').owlCarousel({
         items: 4,
@@ -34,7 +19,7 @@ $(document).ready(function () {
             992: {
                 items: 3
             },
-            1200: {
+            1370: {
                 items: 5
             }
         },
@@ -57,7 +42,7 @@ $(document).ready(function () {
                 items: 4
             },
             1200: {
-                items: 6
+                items: 5
             },
         },
     });
@@ -76,6 +61,22 @@ $(document).ready(function () {
             }
         }
     });
+
+    var PromoSlider = new MasterSlider();
+    PromoSlider.setup('masterslider-promo' , {
+        width: 1400, // PromoSlider standard width
+        height: 580, // PromoSlider standard height
+        speed: 70,
+        layout: 'fullwidth',
+        loop: true,
+        autoplay: true,
+        overPause: true,
+        dir: 'v'
+    });
+    // Adds Arrows navigation control to the PromoSlider
+    PromoSlider.control('arrows');
+    PromoSlider.control('lightbox');
+    PromoSlider.control('thumblist', {autohide:false, dir:'v', align:'left', width:200, height:120, margin:0, space:10 , hideUnder:500, inset:true});
 
 
     App.init();
