@@ -1413,6 +1413,9 @@ body {
 .color-overlay2 {
   background: #f7b70b; }
 
+.construction-header.one-page-header.navbar {
+  box-shadow: 0px 0px 3px #b5b5b5; }
+
 .construction-header.one-page-header .navbar-nav > li > a,
 .construction-header.one-page-header .navbar-nav > li > a:focus {
   padding: 8px 5px;
@@ -1433,25 +1436,24 @@ body {
     margin-top: -62px;
     content: ""; }
 
-.promo__title {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 1.5; }
-
-@media (max-width: 885px) {
-  .promo__title {
-    font-size: 30px; } }
+.t__title {
+  font-size: 2em; }
 
 @media (max-width: 768px) {
-  .promo__title:after {
-    height: 80px;
-    margin-top: -40px; } }
+  .promo-section {
+    padding-top: 105px; } }
 
-@media (max-width: 495px) {
-  .promo__title {
-    font-size: 30px; } }
+@media (max-width: 992px) and (min-width: 769px) {
+  .promo-section {
+    padding-top: 105px; } }
+
+@media (max-width: 1200px) and (min-width: 993px) {
+  .promo-section {
+    padding-top: 40px; } }
+
+@media (min-width: 1201px) {
+  .promo-section {
+    padding-top: 40px; } }
 
 .btn-gstq-v1 {
   color: #fff;
@@ -1461,6 +1463,8 @@ body {
   font-size: 11px;
   padding: 10px 20px;
   border: 1px solid #fff; }
+  .btn-gstq-v1:hover {
+    background: transparent; }
 
 .container-fluid.with-bg--1 {
   background: url(../images/quote.png) no-repeat 17% 70%;
@@ -1481,7 +1485,7 @@ body {
 .project__title {
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: normal; }
 
 .project__img {
@@ -1569,103 +1573,81 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.promo-section {
-  margin-top: 0; }
+.course {
+  max-height: 735px;
+  position: relative; }
 
-@media (max-width: 992px) {
-  .promo-section {
-    margin-top: 75px; } }
+.course:before {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
 
-@media (max-width: 768px) {
-  .promo-section {
-    margin-top: 75px;
-    overflow-y: auto; } }
-
-@media (max-width: 600px) {
-  .promo-section {
-    margin-top: 75px; } }
-
-/* Real Estate Font Styles */
-.ms-layer {
-  text-align: center;
-  max-width: 550px;
-  left: 50% !important;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%); }
-
-.ms-thumb-list.ms-dir-v {
-  /* top: 50% !important; */
-  /* left: 115px !important; */
-  /* height: 380px !important; */
-  margin: 0;
-  overflow: hidden; }
-
-.ms-promo-real_estate-price {
-  display: block;
+.course__cat {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: #fff;
+  color: #555;
   text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2; }
+  font-size: 11px;
+  font-weight: bold;
+  max-height: 27px;
+  line-height: 0.8;
+  z-index: 5;
+  transition: all .2s ease-in-out; }
 
-.ms-promo-real_estate-price em {
-  position: relative;
-  top: -5px;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal; }
-
-.ms-promo-real_estate-place {
+.course__cat:hover {
   color: #fff;
-  font-size: 46px;
-  line-height: 1.2;
-  font-weight: 700;
-  text-transform: uppercase; }
+  background: #6bda95;
+  text-decoration: none; }
 
-.ms-promo-real_estate-description {
-  /* max-width: 550px; */
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.7); }
+.course--bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  z-index: 5; }
 
-@media (max-width: 1024px) {
-  .ms-promo-real_estate-description {
-    font-size: 14px !important;
-    line-height: 1.4 !important; } }
+.course__dur {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold; }
 
-@media (max-width: 900px) {
-  .ms-promo-real_estate-price {
-    font-size: 18px !important;
-    line-height: 1.5 !important; }
-  .ms-promo-real_estate-price em {
-    top: 0; }
-  .ms-promo-real_estate-place {
-    font-size: 32px; } }
+.course__icon {
+  color: #6bda95;
+  font-size: 22px; }
 
-@media (max-width: 800px) {
-  .ms-promo-real_estate-price,
-  .ms-promo-real_estate-place,
-  .ms-promo-real_estate-description {
-    left: 20px !important; } }
+.course__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold; }
 
-@media (max-width: 767px) {
-  .ms-thumb-frame {
-    width: 140px !important;
-    height: 90px !important;
-    margin-bottom: 0 !important; } }
+.course__text {
+  font-size: 1.25em;
+  color: #fff;
+  opacity: 0.8; }
 
-@media (max-width: 650px) {
-  .ms-thumb-frame,
-  .ms-slide .btn-u {
-    display: none; }
-  .ms-promo-real_estate-place {
-    font-size: 24px; } }
+.course__btn-u,
+.course__btn-u:focus {
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #fff; }
 
-@media (max-width: 550px) {
-  .ms-promo-real_estate-price {
-    font-size: 14px !important; }
-  .ms-promo-real_estate-price.g-mb-25 {
-    margin-bottom: 15px !important; }
-  .ms-promo-real_estate-place {
-    font-size: 20px; }
-  .ms-promo-real_estate-place.g-mb-35 {
-    margin-bottom: 0 !important; } }
+.course__btn-u:hover {
+  background: transparent;
+  border: 2px solid #328DF9; }
+
+@media (max-width: 500px) {
+  .hidden-xxs {
+    display: none !important; } }
