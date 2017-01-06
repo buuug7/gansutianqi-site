@@ -1404,14 +1404,25 @@ a:hover {
 body {
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun !important; }
 
+.padding-top-30 {
+  padding-top: 30px; }
+
+.padding-bottom-30 {
+  padding-bottom: 30px; }
+
 .width-img-100 {
   width: 100%; }
 
 .color-overlay {
-  background: #328DF9; }
+  background: #328DF9;
+  opacity: 0.95; }
 
 .color-overlay2 {
   background: #f7b70b; }
+
+.color-overlay-farm {
+  background: green;
+  opacity: 0.9; }
 
 .construction-header.one-page-header.navbar {
   box-shadow: 0px 0px 3px #b5b5b5; }
@@ -1470,18 +1481,6 @@ body {
   background: url(../images/quote.png) no-repeat 17% 70%;
   background-size: 310px 190px; }
 
-.best-service--1 {
-  background: url(../images/advantage01.jpg) no-repeat scroll 50% 0/cover; }
-
-.best-service--2 {
-  background: url(../images/advantage02.jpg) no-repeat scroll 50% 0/cover; }
-
-.best-service--3 {
-  background: url(../images/advantage03.jpg) no-repeat scroll 50% 0/cover; }
-
-.best-service--4 {
-  background: url(../images/advantage04.jpg) no-repeat scroll 50% 0/cover; }
-
 .project__title {
   color: #fff;
   text-transform: uppercase;
@@ -1515,24 +1514,35 @@ body {
 .heading-v14-1:after {
   background: #fff; }
 
+.heading-v14__title {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px; }
+
+.testi__text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5; }
+
 .container-fluid.with-bg--1 {
-  background: url(../images/quote.png) no-repeat 17% 70%;
-  background-size: 310px 190px; }
+  background: url(../images/logo.png) no-repeat 5% 70%; }
 
 .container-fluid.with-bg--2 {
-  background: url(../images/project-bg.jpg) no-repeat 80% 95%; }
+  background: url(../images/logo.png) no-repeat 30% 25%; }
 
 .container-fluid.with-bg--3 {
   background: #f9f9f9; }
 
 .container-fluid.with-bg--4 {
-  background: url(../img-temp/17.jpg) no-repeat 50% 80%; }
+  background: url(../images/logo.png) no-repeat 50% 80%; }
 
 .container-fluid.with-bg--5 {
-  background: url(../images/46.jpg) no-repeat 80% 80%; }
+  background: url(../images/logo.png) no-repeat 80% 80%; }
 
 .container-fluid.with-bg--6 {
-  background: url(../images/47.jpg) no-repeat 80%; }
+  background: url(../images/logo.png) no-repeat 5%; }
 
 .testi__company {
   color: #328DF9;
@@ -1651,3 +1661,109 @@ body {
 @media (max-width: 500px) {
   .hidden-xxs {
     display: none !important; } }
+
+.h__img_1 {
+  height: 400px; }
+  .h__img_1 h2 {
+    position: absolute;
+    top: 75%;
+    width: 100%; }
+
+.h__img_2 {
+  height: 555px; }
+
+.h__img_3__text {
+  font-size: 16px;
+  color: #777;
+  line-height: 2; }
+
+.max-width-img {
+  max-width: 100%;
+  width: 100%; }
+
+#solutions-farm-1 {
+  background: green;
+  opacity: 0.9; }
+  #solutions-farm-1 h1, #solutions-farm-1 p {
+    color: #fff; }
+  #solutions-farm-1 .heading-v14:after {
+    background: #fff; }
+
+.owl2-carousel-farm-1 {
+  position: relative; }
+
+/*Owl controls*/
+.controls-v4.owl-theme .owl-controls .owl-dots {
+  width: 100%;
+  height: 30px;
+  margin-top: 15px; }
+  .controls-v4.owl-theme .owl-controls .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    display: inline-block;
+    left: 50%;
+    margin: 0 5px; }
+  .controls-v4.owl-theme .owl-controls .owl-dots .active {
+    background: #fff; }
+
+#shangji {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: green;
+  opacity: 0.9; }
+
+.heading-v15 h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.2; }
+
+.heading-v15 p {
+  font-size: 1.5em;
+  color: #999; }
+
+.color-white {
+  color: #fff !important; }
+
+.color-white-down-20 {
+  color: #cccccc !important; }
+
+.h__img_o2o_1 {
+  height: 500px; }
+  .h__img_o2o_1 h2 {
+    position: absolute;
+    top: 75%;
+    width: 100%; }
+
+.counter-item .features {
+  width: 130px;
+  height: 130px;
+  padding: 25px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50% !important;
+  background: #000;
+  opacity: 0.6;
+  border: 6px solid #D7232C; }
+  .counter-item .features .counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff; }
+
+.counter-item > p {
+  margin: 15px 0;
+  font-size: 1.5em; }
+
+#solutions-o2o-1 {
+  background: #fff;
+  opacity: 0.9; }
+  #solutions-o2o-1 .heading-v14:after {
+    background: #fff; }
+  #solutions-o2o-1 .controls-v4.owl-theme .owl-controls .owl-dots .owl-dot {
+    background: transparent;
+    border: 1px solid red; }
+  #solutions-o2o-1 .controls-v4.owl-theme .owl-controls .owl-dots .active {
+    background: red; }
