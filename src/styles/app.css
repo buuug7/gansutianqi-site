@@ -1404,6 +1404,21 @@ a:hover {
 body {
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun !important; }
 
+.jumbotron-gstq {
+  border-radius: 0 !important;
+  background: url("../images/xxh/xxh-header.jpg") no-repeat !important;
+  color: #fff;
+  min-height: 450px; }
+  .jumbotron-gstq h1 {
+    padding-top: 120px; }
+  .jumbotron-gstq p, .jumbotron-gstq h1 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px #000; }
+
+.jumbotron-gstq-o2o {
+  background: url("../images/o2o/pmsbg3.jpg") no-repeat !important; }
+
 .padding-top-30 {
   padding-top: 30px; }
 
@@ -1677,6 +1692,12 @@ body {
   color: #777;
   line-height: 2; }
 
+.h__img_4__text {
+  font-size: 16px;
+  color: #777;
+  line-height: 2;
+  text-indent: 2em; }
+
 .max-width-img {
   max-width: 100%;
   width: 100%; }
@@ -1724,18 +1745,20 @@ body {
   font-size: 1.5em;
   color: #999; }
 
+.heading-v16 h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.2; }
+
+.heading-v16 p {
+  font-size: 1.2em;
+  color: #999; }
+
 .color-white {
   color: #fff !important; }
 
 .color-white-down-20 {
   color: #cccccc !important; }
-
-.h__img_o2o_1 {
-  height: 500px; }
-  .h__img_o2o_1 h2 {
-    position: absolute;
-    top: 75%;
-    width: 100%; }
 
 .counter-item .features {
   width: 130px;
@@ -1767,3 +1790,10 @@ body {
     border: 1px solid red; }
   #solutions-o2o-1 .controls-v4.owl-theme .owl-controls .owl-dots .active {
     background: red; }
+
+.h__img_xxh_1 {
+  height: 500px; }
+  .h__img_xxh_1 h2 {
+    position: absolute;
+    top: 75%;
+    width: 100%; }

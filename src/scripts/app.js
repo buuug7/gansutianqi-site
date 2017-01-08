@@ -5,6 +5,13 @@
 $(document).ready(function () {
 
 
+    App.init();
+    App.initCounter();
+
+
+    //
+    // index
+    //
     $('.owl2-carousel-v0').owlCarousel({
         items: 2,
         margin: 15,
@@ -133,16 +140,6 @@ $(document).ready(function () {
     //
     // o2o
     //
-    $(".h__img_o2o_1").backstretch(
-        ["images/o2o/pmsbg.jpg"],
-        {
-            centeredX: true,
-            centeredY: true,
-            duration: 10000,
-            fade: 1500
-        }
-    );
-
 
     $('.owl2-carousel-o2o-1').owlCarousel({
         // margin: 1,
@@ -161,8 +158,23 @@ $(document).ready(function () {
         }
     });
 
+    //
+    // xxh
+    //
+
+    $(".h__img_xxh_1").backstretch(
+        ["images/xxh/xxh-header.jpg"],
+        {
+            centeredX: true,
+            centeredY: true,
+            duration: 10000,
+            fade: 1500
+        }
+    );
 
 
-    App.init();
-    App.initCounter();
+    //
+    // coming soon page
+    //
+
 });

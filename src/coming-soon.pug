@@ -1,0 +1,90 @@
+doctype html
+<!--[if IE 9]>
+html.ie9(lang='en')
+<![endif]-->
+<!--[if !IE 9]>
+html(lang='en')
+<![endif]-->
+head
+	title 即将来领，敬请期待 | 天奇网络
+	// meta
+	meta(name='viewport',content='width=device-width, initial-scale=1.0')
+	meta(http-equiv='X-UA-Compatible',content='IE=edge')
+	meta(name='keywords',content='甘肃天奇 甘肃 定西')
+	meta(name='author',content='buuug7')
+	meta(charset='utf-8')
+	// favicon
+	link(rel='shortcut icon',type='image/x-icon',href='/favicon.ico')
+	// css global
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/plugins/bootstrap/css/bootstrap.min.css')
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/css/style.css')
+	// header and footer
+	// plugins
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/plugins/animate.css')
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/plugins/line-icons-pro/styles.css')
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/plugins/line-icons/line-icons.css')
+	// theme
+	// customization
+	link(rel='stylesheet',href='no-npm-plugins/unify-v1.9.7/assets/css/pages/page_coming_soon_v6.css')
+	link(rel='stylesheet',href='styles/app.css')
+
+body(class='coming-soon-page')
+	div(class='coming-soon-v5')
+		div.container
+			div.row
+				div(class='col-md-5 col-sm-7 col-xs-8 col-2xs-12')
+					img(class='margin-bottom-50',src='images/logo2.png')
+					h1(class='margin-bottom-20') 敬请期待
+					p.margin-bottom-50 正在路上，很快就好了
+					div(class='coming-soon-plugin margin-bottom-80')
+						div#defaultCountdown
+			p.copyright 2016 &copy; 天奇网络
+
+
+	// global
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/jquery/jquery.min.js')
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/jquery/jquery-migrate.min.js')
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/bootstrap/js/bootstrap.min.js')
+	// plugins
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/back-to-top.js')
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/smoothScroll.js')
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/countdown/jquery.plugin.js')
+	script(src='no-npm-plugins/unify-v1.9.7/assets/plugins/countdown/jquery.countdown.js')
+	// page level
+	script(src='no-npm-plugins/unify-v1.9.7/assets/js/app.js')
+
+	// custom
+	script.
+		$.countdown.regionalOptions['zh-CN'] = {
+			labels: ['年', '月', '周', '天', '时', '分', '秒'],
+			labels1: ['年', '月', '周', '天', '时', '分', '秒'],
+			compactLabels: ['年', '月', '周', '天'],
+			compactLabels1: ['年', '月', '周', '天'],
+			whichLabels: null,
+			digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+			timeSeparator: ':',
+			isRTL: false
+		};
+		$.countdown.setDefaults($.countdown.regionalOptions['zh-CN']);
+
+		var PageComingSoon = function () {
+			return {
+				//Coming Soon
+				initPageComingSoon: function () {
+					var newYear = new Date();
+					newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1);
+					$('#defaultCountdown').countdown({
+						until: newYear,
+					})
+				}
+			};
+		}();
+
+		App.init();
+		PageComingSoon.initPageComingSoon();
+
+		$('body').css('margin-top', Number($(document).height() - $('.coming-soon-v5').height()) / 2);
+		$(window).resize(function () {
+			$('body').css('margin-top', Number($(document).height() - $('.coming-soon-v5').height()) / 2);
+		});
+
