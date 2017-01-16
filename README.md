@@ -1,7 +1,6 @@
 ## 公司官网模板
 公司官网模板，使用响应式框架bootstrap构建，[查看](http://1.jq2.com:8082/)
 
-
 ### 使用框架 frontend framework
 + bootstrap 3.3.7
 + unify-v1.9.7
@@ -24,3 +23,5 @@ before you install if,your local machine need to install git ,gulp(install globa
     + psd,the source of you psd file
     + scss,the scss code of you style.
     + styles,the output css file ,this is a copy of dist/styles,for some special purpose ,i retain it.
+### TODO
+    + more
