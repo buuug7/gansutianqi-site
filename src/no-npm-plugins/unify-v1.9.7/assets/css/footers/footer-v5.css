@@ -1,17 +1,17 @@
 /*Footer-v5
 ------------------------------------*/
 .footer-v5 .footer {
-	padding: 70px 0;
-	background: #252525;
+    padding: 70px 0;
+    background: #252525;
 }
 
 .footer-v5 .footer p {
-	color: #777;
+    color: #777;
 }
 
 /*Heading Fotoer*/
 .footer-v5 .heading-footer {
-	text-align: left;
+    text-align: left;
     position: relative;
     margin-bottom: 30px;
     padding-bottom: 2px;
@@ -66,70 +66,70 @@
 
 /*Link News*/
 .footer-v5 .footer .link-news {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .footer-v5 .footer .link-news li {
-	padding: 12px 0px;
-	border-top: solid 1px #333;
+    padding: 12px 0px;
+    border-top: solid 1px #333;
 }
 
 .footer-v5 .footer .link-news li:first-child {
-	padding-top: 0;
-	border-top: none;
+    padding-top: 0;
+    border-top: none;
 }
 
 .footer-v5 .footer .link-news li a {
-	color: #777;
-	font-size: 14px;
-	margin-bottom: 3px;
-	display: inline-block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 3px;
+    display: inline-block;
 }
 
 .footer-v5 .footer .link-news a:hover {
-	color: #bbb;
+    color: #bbb;
 }
 
 .footer-v5 .footer .link-news li small {
-	color: #555;
-	display: block;
+    color: #555;
+    display: block;
 }
 
 /*Thumb News*/
 .footer-v5 .footer .thumb-news > li {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-v5 .footer .thumb-news > li:before,
 .footer-v5 .footer .thumb-news > li:after {
-  	content: " ";
-	display: table;
+    content: " ";
+    display: table;
 }
 
 .footer-v5 .footer .thumb-news > li:after {
-	clear: both;
+    clear: both;
 }
 
 .footer-v5 .footer .thumb-news > li img {
-	float: left;
-	width: 80px;
-	height: auto;
-	margin-right: 10px;
+    float: left;
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .footer-v5 .footer .thumb-news > li a {
-	color: #777;
-	display: block;
-	padding-bottom: 8px;
+    color: #777;
+    display: block;
+    padding-bottom: 8px;
 }
 
 .footer-v5 .footer .thumb-news > li a:hover {
-	color: #bbb;
+    color: #bbb;
 }
 
 .footer-v5 .footer .thumb-news > li small {
-	color: #555;
-	font-size: 13px;
+    color: #555;
+    font-size: 13px;
 }
 
 /*Tweets*/
@@ -149,7 +149,7 @@
 }
 
 .footer-v5 .footer .tweets li a {
-	color: #bbb;
+    color: #bbb;
 }
 
 .footer-v5 .footer .tweets li small {
@@ -158,34 +158,34 @@
 
 /*Footer Copyright*/
 .footer-v5 .copyright {
-	padding: 15px 0;
-	background: #202020;
+    padding: 15px 0;
+    background: #202020;
 }
 
 /*Footer Copyright*/
 .footer-v5 .copyright .terms-menu {
-	margin: 6px 0 0;
+    margin: 6px 0 0;
 }
 
 .footer-v5 .copyright .terms-menu li {
-	color: #bbb;
-	font-size: 13px;
-	line-height: 10px;
-	margin-right: 2px;
-	padding-left: 10px;
-	padding-left: 10px;
-	border-left: 1px solid #777;
+    color: #bbb;
+    font-size: 13px;
+    line-height: 10px;
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #777;
 }
 
 .footer-v5 .copyright .terms-menu li:first-child {
-	border-left: none;
-	padding: 0 7px 0 0;
+    border-left: none;
+    padding: 0 7px 0 0;
 }
 
 .footer-v5 .copyright .terms-menu li a {
-	color: #777;
+    color: #777;
 }
 
 .footer-v5 .copyright .terms-menu li a:hover {
-	color: #bbb;
+    color: #bbb;
 }

@@ -34,7 +34,7 @@ gulp.task('clean', () => del(['dist/*', '!dist/.git', 'src/styles/*', 'src/plugi
 }));
 
 // 复制bootstrap字体到dist根目录
-gulp.task('copy:fonts', ()=> {
+gulp.task('copy:fonts', () => {
     return gulp.src([
         'node_modules/bootstrap-sass/assets/fonts/**/*',
     ])
@@ -43,7 +43,7 @@ gulp.task('copy:fonts', ()=> {
 });
 
 // 复制src/images目录到dist/images
-gulp.task('copy:images', ()=> {
+gulp.task('copy:images', () => {
     return gulp.src([
         'src/images/**/*'
     ])
@@ -63,6 +63,7 @@ gulp.task('copy:plugins', () => {
         'node_modules/font-awesome/**/*.{css,map,oft,svg,eot,ttf,woff,woff2}',
         'node_modules/owl.carousel/dist/**/*.{css,js,png,gif}',
         'node_modules/jquery.qrcode/**/*.js',
+        'node_modules/flowchart.js/site/**/*',
     ], {
         dot: true,
         base: './node_modules/',
@@ -76,7 +77,7 @@ gulp.task('copy:plugins', () => {
 });
 
 // 复制非npm管理的插件
-gulp.task('copy:no-npm-plugins', ()=> {
+gulp.task('copy:no-npm-plugins', () => {
     return gulp.src([
         'src/no-npm-plugins/**/*',
     ])
@@ -100,7 +101,7 @@ gulp.task('copy:html', () => {
 });
 
 // 编译pug文件并输出到dist根目录
-gulp.task('pug', ()=> {
+gulp.task('pug', () => {
     return gulp.src('src/**/*.pug')
         .pipe(pug({
             pretty: true,

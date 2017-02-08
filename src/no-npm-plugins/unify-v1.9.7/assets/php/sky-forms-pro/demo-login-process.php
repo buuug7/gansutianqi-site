@@ -1,6 +1,5 @@
 <?php
-if( isset($_POST['submit']) )
-{
-	// Your PHP code here
+if (isset($_POST['submit'])) {
+    // Your PHP code here
 }
 ?>

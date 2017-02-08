@@ -24,7 +24,7 @@ $(document).ready(function () {
                 items: 1
             },
             768: {
-                items: 2
+                items: 1
             },
             992: {
                 items: 2
@@ -127,12 +127,12 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 10000,
         responsiveClass: true,
-        pagination : true,
+        pagination: true,
         nav: false,
         responsive: {
             1200: {
                 items: 1,
-               // autoHeight: true,
+                // autoHeight: true,
             }
         }
     });
@@ -148,7 +148,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 10000,
         responsiveClass: true,
-        pagination : true,
+        pagination: true,
         nav: false,
         responsive: {
             1200: {

@@ -24,5 +24,18 @@ before you install if,your local machine need to install git ,gulp(install globa
     + scss,the scss code of you style.
     + styles,the output css file ,this is a copy of dist/styles,for some special purpose ,i retain it.
 
-### TODO
-    + more
+### 更新记录
+
+##### 2017-02-08
++ 添加favicon(普通pc为32x32,苹果移动设备为152x152,微软移动设备为144x144,)
++ Android 5 Chrome Color设置为`#FE6441`
++ msapplication-TileColor 设置为`#FFFFFF`
++ 更换logo,采用更加简洁的新logo
++ 修复首页`owl2-carousel-v0`黄灯片在屏幕分辨率介于992px-768px之间显示item的数量为`1`
++ 主题色从`#f7b70b`调整成为`#fe6441`
++ 更换comming-soon页面背景图片
++ 字体优先级切换为`Microsoft Yahei`,`Hiragino Sans GB`(苹果丽黑字体),`SimSun`
++ 更新了企业信息化解决方案,将原来用ps画的流程图用flowchart.js替换,现在更具有扩展性,代码更加干净
++ 部分图片用css来实现
+
+
