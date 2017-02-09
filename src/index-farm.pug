@@ -66,7 +66,7 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
                 p.h__img_3__text 在淘宝、京东等电商巨头强势出击和带动下，全国农（渔）村电商正形成“跨区域电商平台和本地电商平台共同发展、东中西部竞相迸发、农产海货进城和工业品下乡双向互动”的发展格局。
                 p.h__img_3__text 但是，如何解决农产海货进城的销路以及如何让城里人更便捷的买到好东西的双向需求，为当前一大难题。
                 p.h__img_3__text 依托市场发展趋势，背靠国家政策红利，凭借雄厚IT及互联网技术，天奇网络推出一了农特产品分销&零售解决方案，打造PC端、移动端、门店端三端融合的全渠道分销渠道，旨在帮助农商渔户拓展销售渠道，减少中间环节，获取更大利润。真正让农产海货卖出去，提升农户幸福感！
-
+                p: div(style='width:100%;overflow-x:auto;text-align:center;')#canvas1.padding-top-30
         section#solutions-farm-1.padding-top-30.padding-bottom-30
             div.container
                 div(class='heading-v15 text-center g-mb-60')
@@ -82,4 +82,66 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
         // footer
         include _footer-farm
     include _scripts
+    script.
+        $(function () {
+            var code1 =
+                'st=>start: 收成\n' +
+                'e=>end: 消费者\n' +
+                'op0=>operation: 农民\n' +
+                'op1=>operation: 直销\n' +
+                'op2=>operation: 分销\n' +
+                'c1=>condition: 渠道\n' +
+                'c2=>condition: PC网店\n' +
+                'c3=>condition: 体验店\n' +
+                'c4=>condition: APP店\n' +
+                'st(right)->op0(right)->c1\n' +
+                'c1(yes)->op1->e\n' +
+                'c1(no)->op2->c2\n' +
+                'c2(yes)->e\n' +
+                'c2(no)->c3\n' +
+                'c3(yes)->e\n' +
+                'c3(no)->c4\n' +
+                'c4(yes)->e\n' +
+                'c4(no)->c1\n' +
+                '';
+            flowchart.parse(code1).drawSVG('canvas1', {
+                // 'x': 30,
+                // 'y': 50,
+                'line-width': 2,
+                'maxWidth': 3,//ensures the flowcharts fits within a certian width
+                'line-length': 40,
+                'text-margin': 10,
+                'font-size': 16,
+                'font': 'normal',
+                'font-family': 'Microsoft Yahei',
+                'font-weight': 'normal',
+                'font-color': 'white',
+                'line-color': 'green',
+                'element-color': 'green',
+                'fill': 'white',
+                'yes-text': ' ',
+                'no-text': ' ',
+                'arrow-end': 'block',
+                'scale': 1,
+                'symbols': {
+                    'start': {
+                        'font-color': 'red',
+                        'element-color': 'green',
+                        'fill': 'yellow'
+                    },
+                    'end': {
+                        'class': 'end-element'
+                    }
+                },
+                'flowstate': {
+                    'past': {'fill': '#CCCCCC', 'font-size': 12},
+                    'current': {'fill': 'yellow', 'font-color': 'red', 'font-weight': 'bold'},
+                    'future': {'fill': 'green'},
+                    'request': {'fill': 'blue'},
+                    'invalid': {'fill': '#444444'},
+                    'approved': {'fill': '#58C4A3', 'font-size': 12, 'yes-text': 'APPROVED', 'no-text': 'n/a'},
+                    'rejected': {'fill': '#C45879', 'font-size': 12, 'yes-text': 'n/a', 'no-text': 'REJECTED'}
+                }
+            });
+        });
 

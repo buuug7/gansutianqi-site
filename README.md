@@ -10,7 +10,7 @@ before you install if,your local machine need to install git ,gulp(install globa
 + clone repository git clone `https://github.com/gansutianqi/gansutianqi-site.git`
 + install dependencies with npm npm install
 + install dependencies with yarn yarn
-+ after the install complete, type gulp
++ after the install complete, type `gulp` or type `npm run build`
 + then the script will automatically open you default browser at localhost:3001 and enjoy it .
 
 ### 文件结构 file structure
@@ -37,5 +37,10 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 字体优先级切换为`Microsoft Yahei`,`Hiragino Sans GB`(苹果丽黑字体),`SimSun`
 + 更新了企业信息化解决方案,将原来用ps画的流程图用flowchart.js替换,现在更具有扩展性,代码更加干净
 + 部分图片用css来实现
+
+##### 2017-02-09
++ `index-farm.pug` 用flowchart重画了流程图
++ `index-o2o.pug` 用flowchart重画了流程图
+
 
 

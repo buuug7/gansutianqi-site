@@ -56,6 +56,9 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
                 p.h__img_3__text 当大量的传统品牌快速响应，积极涌入各大电商平台的时候，各大电商大佬、线上品牌也纷纷布局线下，规划O2O战略、补短体验感！
                 p.h__img_3__text 天奇网络推出【品牌O2O分销&零售解决方案】，旨在帮助品牌O2O优化品牌经营与提升服务体验的同时，落实全渠道O2O，重塑品牌竞争力。
                 p.h__img_3__text 希冀有朝一日，成就“中国之星”，走出国门，走向世界！
+                p: div(style='width:100%;overflow-x:auto;text-align:center;')#canvas1.padding-top-30
+                p: div(style='width:100%;overflow-x:auto;text-align:center;')#canvas2.padding-top-30
+                p: div(style='width:100%;overflow-x:auto;text-align:center;')#canvas3.padding-top-30
 
         section#solutions-o2o-1.padding-top-30.padding-bottom-30(style='background:#EEEFF3;')
             div.container
@@ -73,3 +76,37 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
         // footer
         include _footer
     include _scripts
+    script.
+        $(function () {
+            // canvas1
+            var code1 =
+                'st=>start: 网店/PC商城\n' +
+                'e=>end: 消费者\n' +
+                'io1=>inputoutput: 区域体验总店\n' +
+                'io2=>inputoutput: 导购达人/微商\n' +
+                '' +
+                'st(right)->io1(right)->io2(right)->e\n' +
+                '';
+            flowchart.parse(code1).drawSVG('canvas1', {});
+
+            // canvas2
+            var code2 =
+                'st=>start: 区域体验总店\n' +
+                'e=>end: 消费者\n' +
+                'io1=>inputoutput: 网店/PC商城\n' +
+                'io2=>inputoutput: 导购达人/微商\n' +
+                '' +
+                'st(right)->io1(right)->io2(right)->e\n' +
+                '';
+            flowchart.parse(code2).drawSVG('canvas2', {});
+
+            // canvas3
+            var code3 =
+                'st=>start: 加盟店/合作外店\n' +
+                'e=>end: 消费者\n' +
+                'io1=>inputoutput: 导购达人/微商\n' +
+                '' +
+                'st(right)->io1(right)->e\n' +
+                '';
+            flowchart.parse(code3).drawSVG('canvas3', {});
+        });
