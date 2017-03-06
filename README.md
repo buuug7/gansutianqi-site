@@ -34,9 +34,9 @@ before you install if,your local machine need to install git ,gulp(install globa
 ##### 2017-03-06
 + 栏目字体取消加粗，栏目名称间距增大5-10个像素
 + 首页图片放置为通屏大图，图片下方设置点选按钮可供选择，若不选择的情况下进行自动播放。提高图片亮度。
-+ 完善index-o2o
 + 首页幻灯片去掉,换上了新的banner(旧的幻灯片改成默认宽度显示一张,暂时取消显示)
 + 网站logo更换
++ 完善o2o营销解决方案`index-o2o.pug`
 
 ##### 2017-02-09
 + `index-farm.pug` 用flowchart重画了流程图

@@ -178,10 +178,8 @@ gulp.task('serve', [], () => {
 });
 
 
-// 默认任务
-// 复制字体、复制图像、复制插件、复制html文件、
-// 编译scss文件、编译javascript文件、
-gulp.task('default', ['clean'], cb => {
+// gulp watch
+gulp.task('watch', ['clean'], cb => {
     runSequence(
         ['copy:fonts'],
         ['copy:images'],
@@ -194,3 +192,21 @@ gulp.task('default', ['clean'], cb => {
         ['serve'],
         cb);
 });
+
+
+// gulp build
+gulp.task('build', ['clean'], cb => {
+    runSequence(
+        ['copy:fonts'],
+        ['copy:images'],
+        ['copy:plugins'],
+        ['copy:no-npm-plugins'],
+        //['copy:html'],
+        ['pug'],
+        ['styles'],
+        ['scripts'],
+        cb);
+});
+
+// gulp default
+gulp.task('default', ['build']);
