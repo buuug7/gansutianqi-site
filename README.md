@@ -26,6 +26,17 @@ before you install if,your local machine need to install git ,gulp(install globa
 
 ### 更新记录
 
+##### 2017-03-06
++ 栏目字体取消加粗，栏目名称间距增大5-10个像素
++ 首页图片放置为通屏大图，图片下方设置点选按钮可供选择，若不选择的情况下进行自动播放。提高图片亮度。
++ 完善index-o2o
++ 首页幻灯片去掉,换上了新的banner(旧的幻灯片改成默认宽度显示一张,暂时取消显示)
++ 网站logo更换
+
+##### 2017-02-09
++ `index-farm.pug` 用flowchart重画了流程图
++ `index-o2o.pug` 用flowchart重画了流程图
+
 ##### 2017-02-08
 + 添加favicon(普通pc为32x32,苹果移动设备为152x152,微软移动设备为144x144,)
 + Android 5 Chrome Color设置为`#FE6441`
@@ -37,10 +48,3 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 字体优先级切换为`Microsoft Yahei`,`Hiragino Sans GB`(苹果丽黑字体),`SimSun`
 + 更新了企业信息化解决方案,将原来用ps画的流程图用flowchart.js替换,现在更具有扩展性,代码更加干净
 + 部分图片用css来实现
-
-##### 2017-02-09
-+ `index-farm.pug` 用flowchart重画了流程图
-+ `index-o2o.pug` 用flowchart重画了流程图
-
-
-

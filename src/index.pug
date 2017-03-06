@@ -11,9 +11,33 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
         // navbar
         include _navbar
 
+        section.promo-section-v2#intro2
+            div.interactive-slider-v2
+                div.container
+                    div.row
+                        div(class='col-md-5 col-sm-12 col-xs-12 col-md-offset-1 promo-info')
+                            h1
+                                span 务实创新 追求卓越
+                                br
+                                strong Revolution
+                            p 帮助企业建立安全、可靠、高效的网站以及公众信息平台网络。我们专注于电子商务、信息传播、网络简化、灵活接入、链路加速、数据加密等方面持续创新
+                            a(class='btn-u btn-banner btn-apple')
+                                i.fa.fa-heart.fa-2x
+                                span 电 商 学 院
+                                br
+                                span.t2 tian qi
+                            a(class='btn-u btn-banner btn-android')
+                                i.fa.fa-plus.fa-2x
+                                span 查 看 更 多
+                                br
+                                span.t2 tian qi
+
+
+                        div(class='col-md-6 col-sm-12 col-xs-12 banner-img overflow-h')
+                            img(class='img-responsive animated slideInUp wow animated' src='images/mockup_slider4.png' style='visibility: visible; animation-name: slideInUp;')
         // promo block
-        section.promo-section#intro
-            div(class='container-fluid g-mb-40')
+        section.promo-section#intro(style='display:none;')
+            div(class='g-mb-40 container-fluid')
                 div(class='owl2-carousel-v0 owl-theme animated slideInUp')
                     div(class='item text-left')
                         div(class='course')
@@ -105,13 +129,6 @@ body(class='demo-lightbox-gallery font-main promo-padding-top',id="body",data-sp
                                 span(class='testi__name g-dp-block') O2O营销服务解决方案
                                 a(class='testi__company g-dp-block g-mb-30',href='index-o2o.html',target='_blank') 查看详情
                                 p(class='testi__text') 为商家提供基于支付宝、微信等平台开发、运营、推广、数据分析等一系列O2O解决方案服务，加速企业O2O战略布局…
-
-                        div(class='item text-center g-pt-60')
-                            div.testi
-                                img(class='testi__img',src='images/solution6.jpg',alt='')
-                                span(class='testi__name g-dp-block') 深度连接线上线下解决方案
-                                a(class='testi__company g-dp-block g-mb-30',href='coming-soon.html',target='_blank') 查看详情
-                                p(class='testi__text') 对于传统门店而言，实现O2O资源整合，深化线上线下间的协同关系至关重要。HiPOS作为移动云商城多门店O2O解决方案的核心部分......
 
                         div(class='item text-center g-pt-60')
                             div.testi

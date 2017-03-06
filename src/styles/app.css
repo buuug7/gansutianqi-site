@@ -1489,9 +1489,9 @@ body {
 .construction-header.one-page-header .navbar-nav > li > a,
 .construction-header.one-page-header .navbar-nav > li > a:focus {
   padding: 8px 5px;
-  margin: 0 3px;
-  font-size: 16px;
-  font-weight: bold;
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: normal;
   text-transform: uppercase;
   color: #222; }
 
@@ -1519,11 +1519,11 @@ body {
 
 @media (max-width: 1200px) and (min-width: 993px) {
   .promo-section {
-    padding-top: 40px; } }
+    padding-top: 20px; } }
 
 @media (min-width: 1201px) {
   .promo-section {
-    padding-top: 40px; } }
+    padding-top: 20px; } }
 
 .btn-gstq-v1 {
   color: #fff;
@@ -1653,8 +1653,7 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 1; }
+  left: 0; }
 
 .course__cat {
   position: absolute;
@@ -1841,3 +1840,85 @@ body {
     position: absolute;
     top: 75%;
     width: 100%; }
+
+.promo-section-v2 {
+  position: relative;
+  margin-top: -40px; }
+
+.interactive-slider-v2 {
+  z-index: 1;
+  padding: 0 0 0;
+  background: #fff; }
+  .interactive-slider-v2:after {
+    background: transparent; }
+  .interactive-slider-v2 .promo-info {
+    padding: 156px 20px 0;
+    text-align: left; }
+  .interactive-slider-v2 .promo-info h1 {
+    color: #000;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    .interactive-slider-v2 {
+      text-align: center; } }
+  .interactive-slider-v2 .promo-info p {
+    color: #999;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    margin-bottom: 35px; }
+
+@media (max-width: 1200px) {
+  .interactive-slider-v2 .banner-img img {
+    min-height: 640px; } }
+
+@media (max-width: 992px) {
+  .interactive-slider-v2 img {
+    margin: 0 auto; }
+  .interactive-slider-v2 .promo-info {
+    text-align: center; } }
+
+@media (max-width: 1200px) {
+  .btn-u.btn-banner {
+    margin-bottom: 20px; } }
+
+.btn-u.btn-banner .fa {
+  margin: 0 10px 0 0;
+  padding-top: 2px;
+  vertical-align: middle; }
+
+.btn-u.btn-banner.btn-apple {
+  background: #4fd2c2;
+  margin-right: 30px; }
+
+.btn-u.btn-banner {
+  padding: 10px 20px 17px;
+  max-width: 180px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0; }
+
+.btn-u.btn-banner span.t2 {
+  margin: 0 0 0 35px;
+  font-size: 10px;
+  font-weight: normal;
+  color: #fff;
+  opacity: 0.6; }
+
+.thumbnail-v1 {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none;
+  border-radius: 0; }
+  .thumbnail-v1 p {
+    height: 80px;
+    line-height: 20px; }
+
+.backstretch:after {
+  background: transparent; }
