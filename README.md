@@ -24,6 +24,11 @@ before you install if,your local machine need to install git ,gulp(install globa
     + scss,the scss code of you style.
     + styles,the output css file ,this is a copy of dist/styles,for some special purpose ,i retain it.
 
+
+### TODO
++ 再把电商运营这方面的业务也推出来
++ 电商学院
+
 ### 更新记录
 
 ##### 2017-03-06
