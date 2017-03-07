@@ -10,7 +10,28 @@
 </head>
 <body class="demo-lightbox-gallery font-main promo-padding-top" id="body" data-spy="scroll" data-target=".one-page-header">
 <main class="wrapper">
-    @@include('./_navbar-farm.html')
+    <nav class="header one-page-header navbar navbar-default navbar-fixed-top construction-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+        <div class="container">
+            <div class="menu-container page-scroll">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img class="img-responsive" src="images/logo/logo3.png" alt="Logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse g-pt-25 g-sm-pt-0">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll home"><a href="#body"><span data-hover="Home">首页</span></a></li>
+                        <li class="page-scroll"><a href="#problem">传统农贸问题</a></li>
+                        <li class="page-scroll"><a href="#shangji">商机</a></li>
+                        <li class="page-scroll"><a href="#solutions-farm">解决方案</a></li>
+                        <li class="page-scroll"><a href="#solutions-farm-1">网络分销&门店分销</a></li>
+                        <li class="page-scroll"><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
     <section class="promo-section">
         <div class="container-fluid">
             <div class="h__img_1">
@@ -98,7 +119,31 @@
     </section>
     <div id="content"></div>
     @@include('./_contact.html')
-    @@include('./_footer-farm.html')
+    <footer class="footer">
+        <div class="container-fluid no-padding with-bg with-bg--6">
+            <div class="color-overlay color-overlay-farm"></div>
+            <div class="container content-md">
+                <div class="row">
+                    <div class="col-md-5 text-left text-sm-center g-sm-mb-20 g-pt-30">
+                        <p class="footer__text"><span>&copy; 2016 All right reserved&nbsp;</span><strong>天奇网络</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center g-sm-mb-20 g-pt-20">
+                        <p class="footer__support">客服热线<br/><span class="footer__support--phone">0931-7807599</span></p>
+                    </div>
+                    <div class="col-md-4 text-right text-sm-center g-pt-25">
+                        <ul class="list-inline footer__list">
+                            <li><a href="#!"><i class="icon-custom footer__fa icon-sm fa fa-weixin"></i></a></li>
+                            <li><a href="#!"><i class="icon-custom footer__fa icon-sm fa fa-weibo"></i></a></li>
+                            <li><a href="#!"><i class="icon-custom footer__fa icon-sm fa fa-qq"></i></a></li>
+                            <li><a href="#!"><i class="icon-custom footer__fa icon-sm fa fa-github"></i></a></li>
+                            <li><a href="#!"><i class="icon-custom footer__fa icon-sm fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </main>
 @@include('./_scripts.html')
 <script>

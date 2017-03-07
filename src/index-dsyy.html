@@ -10,54 +10,46 @@
 </head>
 <body class="demo-lightbox-gallery font-main promo-padding-top" id="body" data-spy="scroll" data-target=".one-page-header">
 <main class="wrapper">
-    @@include('./_navbar-o2o.html')
+    <!--navbar-->
+    <nav class="header one-page-header navbar navbar-default navbar-fixed-top construction-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+        <div class="container">
+            <div class="menu-container page-scroll">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img class="img-responsive" src="images/logo/logo3.png" alt="Logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse g-pt-25 g-sm-pt-0">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll home"><a href="#body"><span data-hover="Home">首页</span></a></li>
+                        <li class="page-scroll"><a href="#">Lorem ipsum</a></li>
+                        <li class="page-scroll"><a href="#">IpSum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <section class="promo-section g-mb-40">
         <div class="container-fluid">
-            <div class="jumbotron jumbotron-gstq jumbotron-gstq-o2o">
+            <div class="jumbotron jumbotron-gstq jumbotron-gstq-dsyy">
                 <div class="container">
-                    <h1>O2O营销服务解决方案</h1>
-                    <p>为商家提供基于支付宝、微信等平台开发、运营、推广、数据分析等一系列O2O解决方案服务，加速企业O2O战略布局</p>
+                    <h1>电商运营解决方案</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea nesciunt nulla optio,
+                       praesentium provident qui ullam unde vel veniam! Vero, voluptates.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--your code here-->
+
+
     @@include('./_footer.html')
 </main>
 @@include('./_scripts.html')
 <script>
-    $(function () {
-        // canvas1
-        var code1 =
-            'st=>start: 网店/PC商城\n' +
-            'e=>end: 消费者\n' +
-            'io1=>inputoutput: 区域体验总店\n' +
-            'io2=>inputoutput: 导购达人/微商\n' +
-            '' +
-            'st(right)->io1(right)->io2(right)->e\n' +
-            '';
-        flowchart.parse(code1).drawSVG('canvas1', {});
 
-        // canvas2
-        var code2 =
-            'st=>start: 区域体验总店\n' +
-            'e=>end: 消费者\n' +
-            'io1=>inputoutput: 网店/PC商城\n' +
-            'io2=>inputoutput: 导购达人/微商\n' +
-            '' +
-            'st(right)->io1(right)->io2(right)->e\n' +
-            '';
-        flowchart.parse(code2).drawSVG('canvas2', {});
-
-        // canvas3
-        var code3 =
-            'st=>start: 加盟店/合作外店\n' +
-            'e=>end: 消费者\n' +
-            'io1=>inputoutput: 导购达人/微商\n' +
-            '' +
-            'st(right)->io1(right)->e\n' +
-            '';
-        flowchart.parse(code3).drawSVG('canvas3', {});
-    });
 </script>
 </body>

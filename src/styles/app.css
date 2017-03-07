@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* custom css */
 /* Local Classes
 ------------------------------------*/
@@ -1450,7 +1451,7 @@ body {
 
 .jumbotron-gstq {
   border-radius: 0 !important;
-  background: url("../images/xxh/xxh-header.jpg") no-repeat !important;
+  background: url("../images/xxh/xxh-header.jpg") no-repeat;
   color: #fff;
   min-height: 450px; }
   .jumbotron-gstq h1 {
@@ -1971,3 +1972,14 @@ body {
 .testi__text2 {
   height: 80px;
   overflow: hidden; }
+
+/*
+|--------------------------------------------------------------------------
+| 电商运营解决方案 scss file
+|--------------------------------------------------------------------------
+| dian shang  yun ying jie jue fang an  scss file
+|
+|
+*/
+.jumbotron-gstq-dsyy {
+  background: #f9f9f9; }
