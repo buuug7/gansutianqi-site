@@ -38,7 +38,6 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 增加电商运营解决方案,移除o2o门店管理解决方案,参考案例[电商运营](http://www.irelint.com/ebusiness)
 + 添加游戏资讯解决方案(TODO
 
-
 #### 2017-03-06
 + 栏目字体取消加粗，栏目名称间距增大5-10个像素
 + 首页图片放置为通屏大图，图片下方设置点选按钮可供选择，若不选择的情况下进行自动播放。提高图片亮度。

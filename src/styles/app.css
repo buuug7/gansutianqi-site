@@ -1623,7 +1623,8 @@ body {
   position: absolute;
   top: -70px;
   left: 50%;
-  margin-left: -125px; }
+  margin-left: -125px;
+  border: 10px solid #f9f9f9; }
 
 .controls-v3.owl-theme .owl-controls .owl-buttons div {
   padding: 15px 19px;
@@ -1817,9 +1818,9 @@ body {
   text-align: center;
   display: inline-block;
   border-radius: 50% !important;
-  opacity: 0.8;
-  background: #0E40C5;
-  border: 6px solid #4aa4ea; }
+  background: #000;
+  opacity: 0.6;
+  border: 6px solid #D7232C; }
   .counter-item .features .counter {
     font-size: 40px;
     font-weight: bold;
