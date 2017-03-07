@@ -50,7 +50,7 @@ a:hover {
 /*bar*/
 .heading-v14:after {
   width: 70px;
-  height: 10px;
+  height: 6px;
   position: absolute;
   background: #fe6441;
   content: "";
@@ -1127,10 +1127,11 @@ a:hover {
 ---------------------------------------------------- */
 .testi {
   position: relative;
-  box-shadow: 2px 2px 2px #efefef;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
   padding: 90px 35px 35px;
-  /*z-index: -1;*/ }
+  /*z-index: -1;*/
+  margin-bottom: 5px; }
 
 .testi__img {
   width: 100px !important;
@@ -1139,7 +1140,8 @@ a:hover {
   top: -50px;
   left: 50%;
   margin-left: -50px;
-  border: 10px solid #f9f9f9; }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.49);
+  border-radius: 3px; }
 
 .testi__name {
   color: #000;
@@ -1163,7 +1165,11 @@ a:hover {
 .testi__text {
   color: #a7a7a7;
   font-size: 14px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 /*clients*/
 .client__img {
@@ -1616,8 +1622,7 @@ body {
   position: absolute;
   top: -70px;
   left: 50%;
-  margin-left: -125px;
-  border: 10px solid #f9f9f9; }
+  margin-left: -125px; }
 
 .controls-v3.owl-theme .owl-controls .owl-buttons div {
   padding: 15px 19px;
@@ -1811,9 +1816,9 @@ body {
   text-align: center;
   display: inline-block;
   border-radius: 50% !important;
-  background: #000;
-  opacity: 0.6;
-  border: 6px solid #D7232C; }
+  opacity: 0.8;
+  background: #0E40C5;
+  border: 6px solid #4aa4ea; }
   .counter-item .features .counter {
     font-size: 40px;
     font-weight: bold;
