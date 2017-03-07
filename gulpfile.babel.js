@@ -91,7 +91,7 @@ gulp.task('copy:html', () => {
     return gulp.src([
         'src/**/*.html',
     ])
-        .pipe(newer('dist'))
+        //.pipe(newer('dist'))
         .pipe(include({
             prefix: '@@',
             basepath: '@file',
@@ -170,8 +170,8 @@ gulp.task('serve', [], () => {
         server: ['dist'],
         port: 3001,
     });
-    //gulp.watch(['src/**/*.html'], ['copy:html', browserSync.reload]);
-    gulp.watch(['src/**/*.pug'], ['pug', browserSync.reload]);
+    gulp.watch(['src/**/*.html'], ['copy:html', browserSync.reload]);
+    //gulp.watch(['src/**/*.pug'], ['pug', browserSync.reload]);
     gulp.watch(['src/images/**/*.{svg,png,jpg,webp}'], ['copy:images', browserSync.reload]);
     gulp.watch(['src/scripts/**/*.js'], ['scripts', browserSync.reload]);
     gulp.watch(['src/scss/**/*.scss'], ['styles', browserSync.reload]);
@@ -185,8 +185,8 @@ gulp.task('watch', ['clean'], cb => {
         ['copy:images'],
         ['copy:plugins'],
         ['copy:no-npm-plugins'],
-        //['copy:html'],
-        ['pug'],
+        ['copy:html'],
+      //  ['pug'],
         ['styles'],
         ['scripts'],
         ['serve'],
@@ -201,8 +201,8 @@ gulp.task('build', ['clean'], cb => {
         ['copy:images'],
         ['copy:plugins'],
         ['copy:no-npm-plugins'],
-        //['copy:html'],
-        ['pug'],
+        ['copy:html'],
+       // ['pug'],
         ['styles'],
         ['scripts'],
         cb);
