@@ -33,7 +33,7 @@ before you install if,your local machine need to install git ,gulp(install globa
 #### 2017-03-07
 + 首页解决方案样式调整,增加左右navigator
 + 首页幻灯片(banner)现在有两种样式可供选择
-+ 增加电商运营解决方案,移除o2o门店管理解决方案
++ 增加电商运营解决方案,移除o2o门店管理解决方案,参考案例[电商运营](http://www.irelint.com/ebusiness)
 
 
 
