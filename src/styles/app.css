@@ -1817,9 +1817,9 @@ body {
   text-align: center;
   display: inline-block;
   border-radius: 50% !important;
-  opacity: 0.8;
   background: #0E40C5;
-  border: 6px solid #4aa4ea; }
+  opacity: 0.8;
+  border: 6px solid #3f9cea; }
   .counter-item .features .counter {
     font-size: 40px;
     font-weight: bold;
