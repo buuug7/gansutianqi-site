@@ -271,7 +271,7 @@ body {
     top: -70px;
     left: 50%;
     margin-left: -125px;
-    border: 10px solid #f9f9f9;
+    //border: 10px solid #f9f9f9;
 }
 
 .controls-v3.owl-theme .owl-controls .owl-buttons div {
@@ -514,9 +514,12 @@ body {
         text-align: center;
         display: inline-block;
         border-radius: 50% !important;
-        background: #000;
-        opacity: 0.6;
-        border: 6px solid #D7232C;
+        //opacity: 0.6;
+        //background: #000;
+        //border: 6px solid #D7232C;
+        background: #0E40C5;
+        opacity: 0.8;
+        border: 6px solid #3f9cea;
         .counter {
             font-size: 40px;
             font-weight: bold;
