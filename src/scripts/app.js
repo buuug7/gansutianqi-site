@@ -88,9 +88,11 @@ $(document).ready(function () {
         loop: true,
         items: 1,
         responsiveClass: true,
-        nav: true,
-        navText: ["<i class='fa fa-arrow-left'></i>", "<i class='fa fa-arrow-right'></i>"],
-        navContainerClass: 'owl-buttons',
+        rtl: true,
+        //nav: true,
+        //navText: ["<i class='fa fa-arrow-left'></i>", "<i class='fa fa-arrow-right'></i>"],
+        //navContainerClass: 'owl-buttons',
+        autoplay: true,
         responsive: {
             1200: {
                 items: 1,
