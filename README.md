@@ -8,9 +8,9 @@
 ## 使用(Usage)
 before you install if,your local machine need to install git ,gulp(install global),node,or yarn
 + clone repository git clone `https://github.com/gansutianqi/gansutianqi-site.git`
-+ install dependencies with npm npm install
-+ install dependencies with yarn yarn
-+ after the install complete, type `gulp` or type `npm run build`
++ install dependencies with `npm install` commander
++ install dependencies with `yarn yarn` commander
++ after the install completed, input `npm run build` at cli.
 + then the script will automatically open you default browser at localhost:3001 and enjoy it .
 
 ## 结构(File structor)
@@ -31,6 +31,11 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 游戏资讯解决方案
 
 ## 更新记录(Change)
+
+#### 2017-03-08
++ 增加游戏娱乐资讯解决方案`index-yxyl.html`
++ 完善首页`index.html`
+
 
 #### 2017-03-07
 + 首页解决方案样式调整,增加左右navigator
