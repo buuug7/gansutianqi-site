@@ -1658,7 +1658,7 @@ body {
   margin-right: auto; }
 
 .course {
-  max-height: 735px;
+  max-height: 700px;
   position: relative; }
 
 .course:before {
@@ -1996,7 +1996,81 @@ body {
 |
 */
 .jumbotron-gstq-dsyy {
-  background: #f9f9f9; }
+  border-radius: 0 !important;
+  background: url("../images/dsyy/dsyy.jpg") no-repeat !important;
+  color: #fff;
+  min-height: 450px; }
+  .jumbotron-gstq-dsyy h1 {
+    padding-top: 0;
+    padding-bottom: 80px;
+    text-align: center; }
+  .jumbotron-gstq-dsyy p, .jumbotron-gstq-dsyy h1 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px #000; }
+  .jumbotron-gstq-dsyy p {
+    margin-bottom: 5px; }
+
+#fw .wmfw ul li {
+  float: left;
+  width: 270px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 160px; }
+
+#fw .wmfw ul .dsyy-list-a {
+  background: url(../images/dsyy/tg.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-b {
+  background: url(../images/dsyy/jd.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-c {
+  background: url(../images/dsyy/xy.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-d {
+  background: url(../images/dsyy/zx.png) no-repeat;
+  margin-bottom: 60px; }
+
+#fw .wmfw ul .dsyy-list-e {
+  background: url(../images/dsyy/train.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-f {
+  background: url(../images/dsyy/bk.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-g {
+  background: url(../images/dsyy/zd.png) no-repeat; }
+
+#fw .wmfw ul .dsyy-list-h {
+  background: url(../images/dsyy/sj.png) no-repeat; }
+
+#wlyx ul, #wlyx ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+#wlyx ul li {
+  float: left;
+  width: 365px;
+  text-align: center;
+  position: relative; }
+  #wlyx ul li p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333; }
+  #wlyx ul li ol li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666;
+    height: 19px;
+    overflow: hidden;
+    padding: 0 20px; }
+
+#wlyx .headline-center h2:after {
+  width: 300px;
+  background: #EB6100;
+  left: 39%;
+  text-align: center; }
 
 /*
 |--------------------------------------------------------------------------

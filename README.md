@@ -25,10 +25,10 @@ before you install if,your local machine need to install git ,gulp(install globa
     + styles,the output css file ,this is a copy of dist/styles,for some special purpose ,i retain it.
 
 ## 待办事项(Todo list)
-+ 再把电商运营这方面的业务也推出来
++ ~~再把电商运营这方面的业务也推出来~~
 + 电商学院
-+ 电商运营解决方案
-+ 游戏资讯解决方案
++ ~~电商运营解决方案~~
++ ~~游戏资讯解决方案~~
 
 ## 更新记录(Change)
 
