@@ -34,7 +34,8 @@ before you install if,your local machine need to install git ,gulp(install globa
 
 #### 2017-03-09
 + 完善电商运营解决方案的网页`index-dsyy.html`
-
++ 完善主页的解决方案的`更多`改为`查看详情`
++ index-xxh.html页面中的`页脚`和`联系我们`重复，择一删除。
 
 #### 2017-03-08
 + 增加游戏娱乐资讯解决方案`index-yxyl.html`
