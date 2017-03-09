@@ -32,9 +32,15 @@ before you install if,your local machine need to install git ,gulp(install globa
 
 ## 更新记录(Change)
 
+#### 2017-03-09
++ 完善电商运营解决方案的网页`index-dsyy.html`
+
+
 #### 2017-03-08
 + 增加游戏娱乐资讯解决方案`index-yxyl.html`
 + 完善首页`index.html`
++ 完成电商运营解决方案的网页`index-dsyy.html`
+
 
 
 #### 2017-03-07

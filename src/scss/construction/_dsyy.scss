@@ -9,9 +9,7 @@
 .jumbotron-gstq-dsyy {
   border-radius: 0 !important;
   background: url("../images/dsyy/dsyy.jpg") no-repeat !important;
-  color: #fff;
   h1 {
-    padding-top: 0;
     padding-bottom: 80px;
     text-align: center;
   }
@@ -30,66 +28,55 @@
 
 }
 
-#fw{
-  .wmfw {
-    ul {
-      li {
-        float: left;
-        width: 270px;
-        color: #fff;
+#fw {
+  .dsyy-fw {
+    .dsyy-fw-img {
+      margin-bottom: 80px;
+      img {
+        width: 100%;
+      }
+      @media (max-width: 330px) {
+        img {
+          width: 130px;
+          height: 130px;
+        }
+      }
+      p {
         font-size: 18px;
-        text-align: center;
-        padding-top: 160px;
+        margin-top: -100px;
+        color: #fff;
       }
-      .dsyy-list-a {
-        background: url(../images/dsyy/tg.png) no-repeat;
-      }
-      .dsyy-list-b {
-        background: url(../images/dsyy/jd.png) no-repeat;
+      @media (max-width: 500px) {
+        p {
+          font-size: 16px;
+          margin-top: -60px;
+          padding: 0 20px;
 
-      }
-      .dsyy-list-c {
-        background: url(../images/dsyy/xy.png) no-repeat;
-      }
-      .dsyy-list-d {
-        background: url(../images/dsyy/zx.png) no-repeat;
-        margin-bottom: 60px;
-      }
-      .dsyy-list-e {
-        background: url(../images/dsyy/train.png) no-repeat;
-      }
-      .dsyy-list-f {
-        background: url(../images/dsyy/bk.png) no-repeat;
-
-      }
-      .dsyy-list-g {
-        background: url(../images/dsyy/zd.png) no-repeat;
-      }
-      .dsyy-list-h {
-        background: url(../images/dsyy/sj.png) no-repeat;
-
+        }
       }
     }
+    @media (max-width: 320px) {
+      .dsyy-fw-img {
+        margin-bottom: 40px;
+      }
+
+    }
+
   }
 
 }
 
 #wlyx {
-  ul, ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  ul li {
-    float: left;
-    width: 365px;
-    //height: 423px;
-    text-align: center;
-    position: relative;
+  .dsyy-wlyx {
     p {
       font-size: 16px;
       margin-bottom: 20px;
       color: #333;
+    }
+    ol {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
     }
     ol li {
       font-size: 14px;
@@ -100,13 +87,14 @@
       padding: 0 20px;
     }
   }
-  .headline-center h2:after {
-    width: 300px;
-    background: #EB6100;
-    left: 39%;
-    text-align: center;
 
+  .headline-center h2:after {
+    width: 100px;
+    background: #EB6100;
+    height: 3px;
+    margin-left: -50px;
   }
+
 }
 
 
