@@ -31,6 +31,11 @@ before you install if,your local machine need to install git ,gulp(install globa
 + ~~游戏资讯解决方案~~
 
 ## 更新记录(Change)
+#### 2017-03-10
++ index-dsyy.html中的头部图片的修改
++ index-dsyy.html中解决方案的图片修改
++ index-dsyy.html中头部图片的更换
++ index.html中给电商学院更换链接地址
 
 #### 2017-03-09
 + 完善电商运营解决方案的网页`index-dsyy.html`
