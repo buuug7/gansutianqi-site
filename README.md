@@ -26,7 +26,7 @@ before you install if,your local machine need to install git ,gulp(install globa
 
 ## 待办事项(Todo list)
 + ~~再把电商运营这方面的业务也推出来~~
-+ 电商学院
++ ~~电商学院~~
 + ~~电商运营解决方案~~
 + ~~游戏资讯解决方案~~
 
