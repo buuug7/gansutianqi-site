@@ -1525,13 +1525,11 @@ body {
 
 @media (max-width: 768px) {
   .promo-section {
-    padding-top: 105px;
-    margin-top: 75px; } }
+    padding-top: 105px; } }
 
 @media (max-width: 992px) and (min-width: 769px) {
   .promo-section {
-    padding-top: 105px;
-    margin-top: 75px; } }
+    padding-top: 105px; } }
 
 @media (max-width: 1200px) and (min-width: 993px) {
   .promo-section {
@@ -2092,4 +2090,5 @@ body {
 
 .img-tbdp-v1 {
   width: 100%;
-  box-shadow: 5px 5px 10px #888; }
+  box-shadow: 5px 5px 10px #888;
+  margin-bottom: 25px; }
