@@ -1483,6 +1483,12 @@ body {
 .padding-bottom-30 {
   padding-bottom: 30px; }
 
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-bottom {
+  margin-bottom: 30px; }
+
 .width-img-100 {
   width: 100%; }
 
@@ -2093,3 +2099,74 @@ body {
   width: 100%;
   box-shadow: 5px 5px 10px #888;
   margin-bottom: 25px; }
+
+/*
+|--------------------------------------------------------------------------
+| 电商运营解决方案 scss file
+|--------------------------------------------------------------------------
+| article  scss file
+|
+|
+*/
+.jumbotron-gstq-article {
+  border-radius: 0 !important;
+  background: url("../images/slider/3.jpg") no-repeat !important; }
+
+.article-list {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 15px; }
+  .article-list .media-article-list:last-child {
+    border-bottom: none; }
+
+.media-article-list {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px; }
+  .media-article-list .media-left {
+    padding-right: 25px; }
+    .media-article-list .media-left > img {
+      width: 150px;
+      height: 115px; }
+  .media-article-list .media-body .media-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; }
+  .media-article-list .media-body p {
+    color: #555; }
+  .media-article-list .media-body .time {
+    color: #888; }
+  .media-article-list .media-body .keywords {
+    color: #888;
+    padding: 0 15px; }
+
+@media (max-width: 480px) {
+  .hidden-xxs {
+    display: none !important; } }
+
+.nav-tabs-v1 > li > a {
+  color: #555;
+  font-weight: bold;
+  font-size: 1.2em; }
+
+@media (max-width: 992px) {
+  .margin-top {
+    margin-top: 100px; } }
+
+@media (min-width: 992px) {
+  .margin-top {
+    margin-top: 20px; } }
+
+.article {
+  padding: 25px;
+  background: #f2f2f2; }
+  .article img {
+    display: block;
+    margin: 0 auto; }
+  .article .title {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 15px 0; }
+  .article .info {
+    color: #888; }
+    .article .info .from {
+      padding: 0 15px; }

@@ -1,0 +1,107 @@
+/*
+|--------------------------------------------------------------------------
+| 电商运营解决方案 scss file
+|--------------------------------------------------------------------------
+| article  scss file
+|
+|
+*/
+.jumbotron-gstq-article {
+    border-radius: 0 !important;
+    background: url("../images/slider/3.jpg") no-repeat !important;
+
+}
+
+.article-list {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 15px;
+    .media-article-list:last-child {
+        border-bottom: none;
+    }
+}
+
+.media-article-list {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    .media-left {
+        padding-right: 25px;
+        > img {
+            width: 150px;
+            height: 115px;
+            //border:1px solid red;
+        }
+    }
+    .media-body {
+        .media-heading {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .time {
+            color: #888;
+        }
+        .keywords {
+            color: #888;
+            padding: 0 15px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .hidden-xxs {
+        display: none !important;
+    }
+}
+
+.nav-tabs-v1 {
+    > li {
+        > a {
+            color: #555;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .margin-top {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .margin-top {
+        margin-top: 20px;
+    }
+}
+
+.article {
+    padding: 25px;
+    //box-shadow: 3px 3px 15px #ddd;
+    background: darken(#fff, 5%);
+
+    img{
+        display: block;
+        margin:0 auto;
+    }
+
+    .title {
+        font-size: 1.8em;
+        font-weight: bold;
+        padding: 15px 0;
+    }
+
+    .info {
+        color:#888;
+        .time {
+
+        }
+        .from{
+            padding:0 15px;
+        }
+    }
+}
