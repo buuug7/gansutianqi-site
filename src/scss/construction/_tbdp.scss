@@ -1,0 +1,50 @@
+/*
+|--------------------------------------------------------------------------
+| 电商运营解决方案 scss file
+|--------------------------------------------------------------------------
+| tao bao dian pu fang an  scss file
+|
+|
+*/
+.jumbotron-gstq-tbdp {
+    border-radius: 0 !important;
+    background: url("../images/slider/8.jpg") no-repeat center center !important;
+}
+
+.item-tbdp-v1 {
+    text-align: center;
+    margin-bottom:25px;
+    .fa{
+        font-size:6em;
+    }
+    .title {
+        font-size:2em;
+    }
+}
+
+
+.item-tbdp-v2 {
+    text-align: center;
+    margin-bottom:25px;
+    .fa{
+        color:#BA292E;
+    }
+    .title {
+        font-size:2em;
+    }
+    .des{
+        padding: 15px 0;
+        font-size:1.2em;
+        color:#888;
+        height:150px;
+        overflow: hidden;
+    }
+}
+
+.img-tbdp-v1{
+    width:100%;
+    box-shadow: 5px 5px 10px #888;
+}
+
+
+
