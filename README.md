@@ -34,11 +34,16 @@ before you install if,your local machine need to install git ,gulp(install globa
 + ~~修改logo,太小了,放大~~
 + 首页幻灯片3张图片都更换
 + ~~增加电商学院解决方案(链接到电商学院)~~
-+ 增加淘宝店铺装修解决方案
++ ~~增加淘宝店铺装修解决方案~~
 + 增加新栏目(行业动态),参考[网站](http://www.chinaz.com/biz/)
 + 首页新闻中指向最新的新闻,可以是一些行业动态之类的新闻
 
 ## 更新记录(Change)
+#### 2017-03-12
++ 修改logo
++ 增加电商学院解决方案
++ 增加淘宝店铺装修解决方案
+
 #### 2017-03-10
 + index-dsyy.html中的头部图片的修改
 + index-dsyy.html中解决方案的图片修改
