@@ -88,21 +88,20 @@ body {
 }
 
 .padding-top-30 {
-    padding-top: 30px;
+    padding-top: 30px !important;
 }
 
 .padding-bottom-30 {
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
 }
 
-.margin-top-30{
-    margin-top:30px;
-}
-.margin-bottom{
-    margin-bottom: 30px;
+.margin-top-30 {
+    margin-top: 30px !important;
 }
 
-
+.margin-bottom {
+    margin-bottom: 30px !important;
+}
 
 .width-img-100 {
     width: 100%;
@@ -114,7 +113,7 @@ body {
 }
 
 .color-overlay2 {
-    background: #fe6441;
+    background: $theme;
 }
 
 .color-overlay-farm {
@@ -142,7 +141,7 @@ body {
         position: absolute;
         width: 0;
         height: 0;
-        background: #fe6441;
+        background: $theme;
         top: 50%;
         margin-top: -62px;
         content: "";
@@ -629,7 +628,7 @@ body {
 
 @media (max-width: 1200px) {
     .interactive-slider-v2 .banner-img img {
-        min-height: 640px;
+        //min-height: 593px;
     }
 }
 
@@ -649,6 +648,18 @@ body {
     }
 }
 
+.construction-header.one-page-header .navbar-brand img {
+    max-height: 55px;
+}
+
+.one-page-header .navbar-brand {
+    font-size: 31px;
+    font-weight: 200;
+    line-height: 15px;
+    padding: 10px 15px 7px;
+    color: #fff !important;
+}
+
 .btn-u.btn-banner .fa {
     margin: 0 10px 0 0;
     padding-top: 2px;
@@ -656,7 +667,7 @@ body {
 }
 
 .btn-u.btn-banner.btn-apple {
-    background: #fe6441;
+    background: $theme;
     margin-right: 30px;
 }
 
@@ -761,4 +772,26 @@ body {
 .testi__text2 {
     height: 80px;
     overflow: hidden;
+}
+
+.panel-default-redlight {
+    border-color: $theme;
+    > .panel-heading {
+        background: lighten($theme,5%);
+    }
+    > .panel-body {
+        padding: 15px;
+        background: darken(#fff, 2%);
+
+        > ul > li {
+            line-height: 2.5;
+        }
+        > ul > li > a {
+            font-size: 1.2em;
+            color: #666;
+            &:hover, &:focus {
+                color: $theme;
+            }
+        }
+    }
 }
