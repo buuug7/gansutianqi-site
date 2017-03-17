@@ -45,6 +45,12 @@ before you install if,your local machine need to install git ,gulp(install globa
 
 ## 更新记录(Change)
 
+#### 2017-03-16
++ 优化了公司官网的所有图片
+
+#### 2017-03-15
++ 将各首页的banner图更换为jpg格式的，因为ie浏览器并不支持webp格式的图片
+
 #### 2017-03-14
 + 压缩电商运营的图片
 + 将首页的电子商务图片更换为webp格式。
