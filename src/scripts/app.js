@@ -43,7 +43,7 @@ $(document).ready(function () {
         loop: true,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 3000,
         // autoplayHoverPause: true,
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         responsive: {
@@ -68,6 +68,7 @@ $(document).ready(function () {
         loop: true,
         nav: false,
         autoplay: true,
+        autoplayTimeout: 2500,
         responsive: {
             300: {
                 items: 2
