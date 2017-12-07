@@ -8,10 +8,15 @@
 ## 使用(Usage)
 before you install if,your local machine need to install git ,gulp(install global),node,or yarn
 + clone repository git clone `https://github.com/gansutianqi/gansutianqi-site.git`
-+ install dependencies with `npm install` commander
-+ install dependencies with `yarn yarn` commander
-+ after the install completed, input `npm run build` at cli.
++ install dependencies with `npm install`
++ after the install completed, type `npm run build` t project root directory.
 + then the script will automatically open you default browser at localhost:3001 and enjoy it .
+
+## 部署(deploy)
++ clone repository git clone `https://github.com/gansutianqi/gansutianqi-site.git`
++ install dependencies with `npm install`
++ after the install completed, type `npm run build` at project root directory.
++ for each commit of your updates, type `git pull origin master` pull latest updates and re run `npm run build`
 
 ## 结构(File structor)
  + dist folder is the output directory , it could not add to the git repository
@@ -29,15 +34,12 @@ before you install if,your local machine need to install git ,gulp(install globa
 + ~~电商学院~~
 + ~~电商运营解决方案~~
 + ~~游戏资讯解决方案~~
-
-
 + ~~修改logo,太小了,放大~~
 + 首页幻灯片3张图片都更换
 + ~~增加电商学院解决方案(链接到电商学院)~~
 + ~~增加淘宝店铺装修解决方案~~
 + ~~增加新栏目(行业动态),参考[网站](http://www.chinaz.com/biz/)~~
 + ~~首页新闻中指向最新的新闻,可以是一些行业动态之类的新闻~~
-
 + ~~电商资讯改成行业动态~~
 + ~~学院改成培训学院~~
 + 行业动态里面的列表页，就按我发的那个页面改，右边是图片新闻、推荐新闻、热门新闻
@@ -54,7 +56,6 @@ before you install if,your local machine need to install git ,gulp(install globa
 #### 2017-03-14
 + 压缩电商运营的图片
 + 将首页的电子商务图片更换为webp格式。
-
 
 #### 2017-03-13
 + 栏目名称变更
@@ -89,15 +90,11 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 完善首页`index.html`
 + 完成电商运营解决方案的网页`index-dsyy.html`
 
-
-
 #### 2017-03-07
 + 首页解决方案样式调整,增加左右navigator
 + 首页幻灯片(banner)现在有两种样式可供选择
 + 增加电商运营解决方案,移除o2o门店管理解决方案,参考案例[电商运营](http://www.irelint.com/ebusiness)
 + 添加游戏资讯解决方案(TODO
-
-
 + yanjf 调整首页解决方案栏目的边框阴影,图片的边框距。
 + O2O营销服务解决方案页面的趋势栏目的颜色
 
@@ -107,7 +104,6 @@ before you install if,your local machine need to install git ,gulp(install globa
 + 首页幻灯片去掉,换上了新的banner(旧的幻灯片改成默认宽度显示一张,暂时取消显示)
 + 网站logo更换
 + 完善o2o营销解决方案`index-o2o.pug`
-
 + 优化了gulp构建脚本,脚本CLI命令合并进package.json,现在调用的方式是`npm run watch`,`npm run build`
 + 新添加了脚本构建插件**cross-env**`npm install -dev cross-env`,或者`yarn add -D cross-env`更新你的node_modules
 + 更新了gulpfile.babel.js
